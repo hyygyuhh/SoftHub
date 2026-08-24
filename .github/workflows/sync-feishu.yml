@@ -36,8 +36,8 @@ jobs:
         env:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
-          FEISHU_BASE_TOKEN: ${{ vars.FEISHU_BASE_TOKEN }}
-          FEISHU_TABLE_ID: ${{ vars.FEISHU_TABLE_ID }}
+          FEISHU_BASE_TOKEN: ${{ secrets.FEISHU_BASE_TOKEN }}
+          FEISHU_TABLE_ID: ${{ secrets.FEISHU_TABLE_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Uncomment and set in repo variables if using international Lark:
           # FEISHU_API_HOST: https://open.larksuite.com
