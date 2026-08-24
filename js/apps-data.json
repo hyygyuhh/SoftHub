@@ -10,7 +10,7 @@
       "icon": "",
       "size": "112MB",
       "version": "2.1.0",
-      "updatedDate": "2026-08-25",
+      "updatedDate": "2026-08-24",
       "popularity": 0,
       "features": [],
       "downloadSources": [
@@ -43,7 +43,7 @@
       "githubStars": 10213
     }
   ],
-  "syncedAt": "2026-08-24T16:47:42.685Z",
+  "syncedAt": "2026-08-24T16:48:48.728Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
