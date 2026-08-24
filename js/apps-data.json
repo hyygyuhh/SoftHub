@@ -1,23 +1,6 @@
 {
   "apps": [
     {
-      "id": "",
-      "name": "",
-      "platform": "",
-      "category": "",
-      "categoryName": "",
-      "description": "",
-      "icon": "",
-      "size": "",
-      "version": "",
-      "updatedDate": "",
-      "popularity": 0,
-      "features": [],
-      "downloadSources": [],
-      "githubUrl": "",
-      "githubStars": 0
-    },
-    {
       "id": "Mineradio",
       "name": "Mineradio",
       "platform": "windows",
@@ -56,11 +39,11 @@
           "type": "uc"
         }
       ],
-      "githubUrl": "XxHuberrr/Mineradio: 一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
+      "githubUrl": "XxHuberrr/Mineradio",
       "githubStars": 0
     }
   ],
-  "syncedAt": "2026-08-24T16:35:42.918Z",
+  "syncedAt": "2026-08-24T16:43:50.109Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
