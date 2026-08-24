@@ -52,9 +52,7 @@ jobs:
             echo "No changes to js/apps-data.json — skipping commit."
           else
             git add js/apps-data.json
-            git commit -m "chore: sync apps data from Feishu Base
-
-Auto-synced by GitHub Actions (workflow: sync-feishu.yml)"
+            git commit -m "chore: sync apps data from Feishu Base (auto-synced by GitHub Actions workflow sync-feishu.yml)"
             git push
             echo "Pushed updated js/apps-data.json"
           fi
