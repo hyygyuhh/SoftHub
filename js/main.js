@@ -49,6 +49,25 @@
         return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
+    /**
+     * Render an app's icon markup.
+     * - If app.icon is a file path/URL (no <svg>/<img> tag), wrap it in an <img>.
+     * - If it's inline SVG or already an <img> tag, return as-is.
+     * - Empty/missing returns ''.
+     * Handles both Feishu-synced image paths and the hardcoded SVG fallback.
+     */
+    function iconHtml(app) {
+        const icon = app && app.icon;
+        if (!icon) return '';
+        if (/<svg|<img/i.test(icon)) return icon;
+        const alt = escapeAttr((app && app.name) || '') + ' 图标';
+        const src = escapeAttr(icon);
+        // Built via concatenation (not a template literal) so the closing
+        // backtick can never get mangled into a quote by tooling.
+        return '<img class="app-icon-img" src="' + src + '" alt="' + alt +
+            '" loading="lazy" decoding="async" onerror="this.classList.add(\'app-icon-img-broken\')">';
+    }
+
     const DEFAULT_META = {
         title: '软集 SoftHub - GitHub 开源软件国内镜像下载',
         description: '软集 SoftHub - 收录 GitHub 优质开源软件，提供国内网盘镜像下载，无需加速器即可极速获取'
@@ -498,7 +517,7 @@
                         <h4>${escapeHtml(app.name)}</h4>
                         <p>${escapeHtml(app.categoryName)} · GitHub 开源</p>
                     </div>
-                    <div class="store-promo-icon">${app.icon}</div>
+                    <div class="store-promo-icon">${iconHtml(app)}</div>
                 </div>
             </article>
         `).join('');
@@ -514,10 +533,10 @@
         track.innerHTML = featured.map((app, i) => `
             <article class="store-featured-card" data-id="${escapeAttr(app.id)}" tabindex="0" role="button" aria-label="查看 ${escapeAttr(app.name)}">
                 <div class="store-featured-banner store-banner-${i % 4}">
-                    <div class="store-featured-banner-art">${app.icon}</div>
+                    <div class="store-featured-banner-art">${iconHtml(app)}</div>
                 </div>
                 <div class="store-featured-body">
-                    <div class="store-featured-icon">${app.icon}</div>
+                    <div class="store-featured-icon">${iconHtml(app)}</div>
                     <div class="store-featured-info">
                         <h3>${highlightSearch(app.name, state.search)}</h3>
                         <span class="store-featured-cat">${escapeHtml(app.categoryName)}${getGithubStars(app) ? ' · ★ ' + formatGithubStars(getGithubStars(app)) : ''}</span>
@@ -539,7 +558,7 @@
         const query = state.search;
         container.innerHTML = apps.map(app => `
             <article class="store-app-row" data-id="${escapeAttr(app.id)}" tabindex="0" role="button" aria-label="查看 ${escapeAttr(app.name)}">
-                <div class="store-app-row-icon">${app.icon}</div>
+                <div class="store-app-row-icon">${iconHtml(app)}</div>
                 <div class="store-app-row-info">
                     <h3>${highlightSearch(app.name, query)}</h3>
                     <span class="store-app-row-cat">${highlightSearch(app.categoryName, query)}${getGithubStars(app) ? ' · ★ ' + formatGithubStars(getGithubStars(app)) : ''}</span>
@@ -876,7 +895,7 @@
                 ${isHotApp(app) ? '<span class="app-hot-badge">热门</span>' : ''}
                 <div class="app-icon-wrapper">
                     <span class="platform-badge ${escapeAttr(app.platform)}">${app.platform === 'windows' ? 'Win' : '安卓'}</span>
-                    ${app.icon}
+                    ${iconHtml(app)}
                 </div>
                 <div class="app-body">
                     <h3 class="app-name">${highlightSearch(app.name, query)}</h3>
@@ -930,7 +949,7 @@
         const query = state.search;
         list.innerHTML = apps.map(app => `
             <div class="app-list-item" data-id="${escapeAttr(app.id)}" tabindex="0">
-                <div class="app-list-icon">${app.icon}</div>
+                <div class="app-list-icon">${iconHtml(app)}</div>
                 <div class="app-list-info">
                     <div class="app-list-name">${highlightSearch(app.name, query)}</div>
                     <div class="app-list-desc">${highlightSearch(app.description, query)}</div>
@@ -1160,7 +1179,7 @@
                                     ${escapeHtml(feature)}
                                 </h4>
                                 <div class="store-carousel-preview">
-                                    <div class="store-carousel-mock">${app.icon}</div>
+                                    <div class="store-carousel-mock">${iconHtml(app)}</div>
                                 </div>
                             </div>
                         </article>`;
@@ -1185,7 +1204,7 @@
         return `
             <div class="store-detail">
                 <header class="store-hero">
-                    <div class="store-hero-icon">${app.icon}</div>
+                    <div class="store-hero-icon">${iconHtml(app)}</div>
                     <div class="store-hero-info">
                         <div class="store-hero-title-row">
                             <h1 class="store-hero-name">${escapeHtml(app.name)}</h1>
@@ -1350,7 +1369,7 @@
         $('#modalAppName').textContent = app.name;
 
         const modalIcon = $('#modalAppIcon');
-        if (modalIcon) modalIcon.innerHTML = app.icon;
+        if (modalIcon) modalIcon.innerHTML = iconHtml(app);
 
         const list = $('#downloadSourcesList');
         list.innerHTML = renderDownloadSources(app.downloadSources);

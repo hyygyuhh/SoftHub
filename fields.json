@@ -1,0 +1,18 @@
+[
+  {"type":"text","name":"应用ID","description":"英文唯一标识，URL 与哈希路由使用，如 vscode、utools"},
+  {"type":"text","name":"应用名称","description":"前台显示名称"},
+  {"type":"select","name":"平台","multiple":false,"options":[{"name":"windows","hue":"Blue","lightness":"Lighter"},{"name":"android","hue":"Green","lightness":"Lighter"}],"description":"单选：windows 或 android"},
+  {"type":"select","name":"分类","multiple":false,"options":[{"name":"office","hue":"Blue"},{"name":"development","hue":"Purple"},{"name":"design","hue":"Carmine"},{"name":"entertainment","hue":"Orange"},{"name":"system","hue":"Gray"},{"name":"network","hue":"Turquoise"},{"name":"security","hue":"Red"}],"description":"侧边栏筛选用的英文 key"},
+  {"type":"text","name":"分类名称","description":"中文分类名，如「开发工具」「办公效率」"},
+  {"type":"text","name":"描述","description":"一句话简介，详情页与列表摘要"},
+  {"type":"text","name":"GitHub仓库","description":"原始仓库地址，如 https://github.com/microsoft/vscode；非开源可留空"},
+  {"type":"number","name":"GitHub Star数","style":{"type":"plain","precision":0},"description":"可选；留空时同步脚本会从 GitHub API 按「GitHub仓库」自动拉取"},
+  {"type":"text","name":"图标SVG","description":"应用图标 SVG 代码片段，如 <svg viewBox=\"0 0 24 24\">...</svg>；当「图标」附件为空时作为回退"},
+  {"type":"attachment","name":"图标","description":"应用图标图片（PNG/SVG 等），优先于「图标SVG」；同步脚本会下载到 assets/icons/{应用ID}.{ext} 供前端 <img> 渲染"},
+  {"type":"text","name":"大小","description":"安装包大小，如 85MB"},
+  {"type":"text","name":"版本","description":"当前收录版本号，如 1.92.0"},
+  {"type":"datetime","name":"更新日期","style":{"format":"yyyy-MM-dd"},"description":"Release 或镜像更新时间"},
+  {"type":"text","name":"特性列表","description":"详情页轮播/亮点，每行一条（换行分隔）"},
+  {"type":"text","name":"下载源JSON","description":"国内网盘镜像 JSON 数组，见 README；用户通过弹窗选择下载"},
+  {"type":"number","name":"热度","style":{"type":"plain","precision":0},"description":"可选，兼容旧数据；前台排序已改用 GitHub Star数，可不填"}
+]

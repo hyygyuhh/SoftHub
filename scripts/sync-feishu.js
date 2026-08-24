@@ -19,6 +19,11 @@
  *   FEISHU_API_HOST    - default https://open.feishu.cn (use https://open.larksuite.com for Lark)
  *   OUTPUT_PATH        - default js/apps-data.json (relative to repo root)
  *   GITHUB_TOKEN       - GitHub PAT for star fetch (Actions 自动提供；本地可选)
+ *
+ * Icon handling:
+ *   If the table has an "图标" attachment field, each record's first attachment
+ *   is downloaded into assets/icons/{appId}.{ext} and the app.icon field is set
+ *   to that relative path. Otherwise falls back to the "图标SVG" text field.
  */
 
 const fs = require('fs');
@@ -102,8 +107,57 @@ function normalizeGithubUrl(url) {
     return u;
 }
 
+/** Derive a file extension from a mime type (e.g. image/png -> png). */
+function extFromMime(mime) {
+    if (!mime || typeof mime !== 'string') return 'png';
+    const m = mime.toLowerCase();
+    if (m.includes('svg')) return 'svg';
+    if (m.includes('png')) return 'png';
+    if (m.includes('jpeg') || m.includes('jpg')) return 'jpg';
+    if (m.includes('webp')) return 'webp';
+    if (m.includes('gif')) return 'gif';
+    return 'png';
+}
+
+/** List table fields and return a {fieldName: fieldId} map. */
+async function getFieldIdMap(token) {
+    const url = `${API_HOST}/open-apis/bitable/v1/apps/${BASE_TOKEN}/tables/${TABLE_ID}/fields`;
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+    const data = await res.json();
+    if (data.code !== 0) {
+        throw new Error(`list fields failed: ${data.code} ${data.msg}`);
+    }
+    const map = {};
+    for (const f of (data.data && data.data.items) || []) {
+        map[f.field_name] = f.field_id;
+    }
+    return map;
+}
+
+/**
+ * Download a bitable attachment by file_token into savePath.
+ * Uses the drive media download endpoint with the bitable extra param for auth.
+ */
+async function downloadAttachment(token, fileToken, recordId, fieldId, savePath) {
+    const extra = {
+        bitablePerm: {
+            tableId: TABLE_ID,
+            attachments: { [fieldId]: { [recordId]: [fileToken] } },
+        },
+    };
+    const url = `${API_HOST}/open-apis/drive/v1/medias/${fileToken}/download?extra=${encodeURIComponent(JSON.stringify(extra))}`;
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+    if (!res.ok) {
+        throw new Error(`HTTP ${res.status} ${res.statusText || ''}`.trim());
+    }
+    const buf = Buffer.from(await res.arrayBuffer());
+    fs.mkdirSync(path.dirname(savePath), { recursive: true });
+    fs.writeFileSync(savePath, buf);
+    return buf.length;
+}
+
 /** Convert a Feishu record's fields into the front-end app object shape. */
-function recordToApp(fields) {
+async function recordToApp(fields, recordId, iconFieldId, token) {
     const downloadSourcesRaw = fields['下载源JSON'] || '[]';
     let downloadSources = [];
     try {
@@ -112,14 +166,32 @@ function recordToApp(fields) {
         downloadSources = [];
     }
     const featuresRaw = fields['特性列表'] || '';
+    const appId = fields['应用ID'] || recordId || '';
+
+    // Icon: prefer "图标" attachment; fall back to "图标SVG" text field.
+    let icon = fields['图标SVG'] || '';
+    const attachments = fields['图标'];
+    if (Array.isArray(attachments) && attachments.length > 0 && recordId && iconFieldId && token) {
+        const att = attachments[0] || {};
+        const ext = extFromMime(att.type);
+        const savePath = path.resolve(process.cwd(), 'assets', 'icons', `${appId}.${ext}`);
+        try {
+            const size = await downloadAttachment(token, att.file_token, recordId, iconFieldId, savePath);
+            icon = `assets/icons/${appId}.${ext}`;
+            console.log(`  icon: ${appId} -> ${icon} (${size} bytes)`);
+        } catch (e) {
+            console.warn(`  icon download failed for ${appId}: ${e.message}`);
+        }
+    }
+
     return {
-        id: fields['应用ID'] || '',
+        id: appId,
         name: fields['应用名称'] || '',
         platform: selectToString(fields['平台']),
         category: selectToString(fields['分类']),
         categoryName: fields['分类名称'] || '',
         description: fields['描述'] || '',
-        icon: fields['图标SVG'] || '',
+        icon,
         size: fields['大小'] || '',
         version: fields['版本'] || '',
         updatedDate: formatMsAsDate(fields['更新日期']),
@@ -133,6 +205,12 @@ function recordToApp(fields) {
 
 /** Paginate through all records of the table. */
 async function fetchAllRecords(token) {
+    const fieldIdMap = await getFieldIdMap(token);
+    const iconFieldId = fieldIdMap['图标'];
+    if (!iconFieldId) {
+        console.warn('No "图标" attachment field found; icons will fall back to "图标SVG".');
+    }
+
     const apps = [];
     let pageToken = '';
     let page = 0;
@@ -150,7 +228,7 @@ async function fetchAllRecords(token) {
         }
         const items = (data.data && data.data.items) || [];
         for (const item of items) {
-            apps.push(recordToApp(item.fields || {}));
+            apps.push(await recordToApp(item.fields || {}, item.record_id || item.id, iconFieldId, token));
         }
         console.log(`  page ${page}: fetched ${items.length} records (total so far: ${apps.length})`);
         if (!data.data.has_more) break;

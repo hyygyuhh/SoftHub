@@ -49,13 +49,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Only commit if js/apps-data.json actually changed.
-          if git diff --quiet -- js/apps-data.json; then
-            echo "No changes to js/apps-data.json — skipping commit."
+          # Stage both the synced data and any downloaded icon images.
+          git add js/apps-data.json assets/icons/
+          # Only commit if something is actually staged.
+          if git diff --cached --quiet; then
+            echo "No changes to js/apps-data.json or assets/icons/ — skipping commit."
           else
-            git add js/apps-data.json
-            git commit -m "chore: sync apps data from Feishu Base (auto-synced by GitHub Actions workflow sync-feishu.yml)"
+            git commit -m "chore: sync apps data + icons from Feishu Base (auto-synced by GitHub Actions workflow sync-feishu.yml)"
             git pull --rebase origin main
             git push
-            echo "Pushed updated js/apps-data.json"
+            echo "Pushed updated js/apps-data.json and assets/icons/"
           fi
