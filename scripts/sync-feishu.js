@@ -91,6 +91,17 @@ function selectToString(v) {
     return String(v);
 }
 
+/** Normalize a GitHub repo value (short owner/repo or full URL) into a full https URL. */
+function normalizeGithubUrl(url) {
+    if (!url || typeof url !== 'string') return '';
+    const u = url.trim();
+    if (!u) return '';
+    if (/^https?:\/\//i.test(u)) return u;
+    if (/^[\w.-]+\/[\w.-]+$/.test(u)) return 'https://github.com/' + u;
+    if (/github\.com\//i.test(u)) return 'https://' + u.replace(/^\/+/, '');
+    return u;
+}
+
 /** Convert a Feishu record's fields into the front-end app object shape. */
 function recordToApp(fields) {
     const downloadSourcesRaw = fields['下载源JSON'] || '[]';
@@ -115,7 +126,7 @@ function recordToApp(fields) {
         popularity: toNumber(fields['热度']),
         features: featuresRaw ? featuresRaw.split('\n').map(s => s.trim()).filter(Boolean) : [],
         downloadSources,
-        githubUrl: fields['GitHub仓库'] || '',
+        githubUrl: normalizeGithubUrl(fields['GitHub仓库']),
         githubStars: toNumber(fields['GitHub Star数']),
     };
 }
