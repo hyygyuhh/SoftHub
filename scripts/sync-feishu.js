@@ -32,8 +32,14 @@ const TABLE_ID = process.env.FEISHU_TABLE_ID;
 const API_HOST = process.env.FEISHU_API_HOST || 'https://open.feishu.cn';
 const OUTPUT_PATH = process.env.OUTPUT_PATH || 'js/apps-data.json';
 
-if (!APP_ID || !APP_SECRET || !BASE_TOKEN || !TABLE_ID) {
-    console.error('Missing required env vars. Need: FEISHU_APP_ID, FEISHU_APP_SECRET, FEISHU_BASE_TOKEN, FEISHU_TABLE_ID');
+const missing = [];
+if (!APP_ID) missing.push('FEISHU_APP_ID');
+if (!APP_SECRET) missing.push('FEISHU_APP_SECRET');
+if (!BASE_TOKEN) missing.push('FEISHU_BASE_TOKEN');
+if (!TABLE_ID) missing.push('FEISHU_TABLE_ID');
+if (missing.length) {
+    console.error('Missing required env vars: ' + missing.join(', '));
+    console.error('Hint: all four must be configured as repository Secrets (Settings → Secrets and variables → Actions → Secrets).');
     process.exit(1);
 }
 
