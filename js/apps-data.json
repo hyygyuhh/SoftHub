@@ -7,12 +7,14 @@
       "category": "development",
       "categoryName": "影音娱乐",
       "description": "Mineradio 是一款 Windows 桌面沉浸式音乐播放器，把搜索播放、歌词舞台、粒子视觉、3D 歌单架和完整桌面模式组合成一个更接近现场感的私人音乐空间。",
-      "icon": "",
+      "icon": "assets/icons/Mineradio.png",
       "size": "112MB",
       "version": "2.1.0",
       "updatedDate": "2026-08-24",
       "popularity": 0,
-      "features": [],
+      "features": [
+        "想听什么，一个搜索框    随节拍生长的视觉"
+      ],
       "downloadSources": [
         {
           "name": "夸克网盘",
@@ -40,10 +42,10 @@
         }
       ],
       "githubUrl": "https://github.com/XxHuberrr/Mineradio",
-      "githubStars": 10213
+      "githubStars": 10215
     }
   ],
-  "syncedAt": "2026-08-24T16:48:48.728Z",
+  "syncedAt": "2026-08-24T17:11:55.514Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
