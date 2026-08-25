@@ -28,7 +28,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/microsoft/vscode",
-      "githubStars": 189585
+      "githubStars": 189582
     },
     {
       "id": "powertoys",
@@ -94,7 +94,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/rustdesk/rustdesk",
-      "githubStars": 121768
+      "githubStars": 121769
     },
     {
       "id": "windows-terminal",
@@ -160,7 +160,37 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/localsend/localsend",
-      "githubStars": 89323
+      "githubStars": 89322
+    },
+    {
+      "id": "ruff",
+      "name": "Ruff",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "icon": "",
+      "size": "9MB",
+      "version": "0.16.4",
+      "updatedDate": "2026-08-19",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "An extremely fast Python linter and"
+        },
+        {
+          "title": "code formatter, written in Rust."
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#linter #pep8 #python #python3"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/astral-sh/ruff",
+      "githubStars": 49315
     },
     {
       "id": "traffic-monitor",
@@ -196,6 +226,36 @@
       "githubStars": 45866
     },
     {
+      "id": "xray-core",
+      "name": "Xray Core",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. ",
+      "icon": "",
+      "size": "20MB",
+      "version": "26.3.27",
+      "updatedDate": "2026-03-26",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Xray, Penetrates Everything"
+        },
+        {
+          "title": "Also the best v2ray-core. Where the magi"
+        },
+        {
+          "title": "核心基于 Go 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#anticensorship #dns #network #proxy"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/XTLS/Xray-core",
+      "githubStars": 41212
+    },
+    {
       "id": "sharex",
       "name": "ShareX",
       "platform": "windows",
@@ -227,6 +287,96 @@
       "downloadSources": [],
       "githubUrl": "https://github.com/ShareX/ShareX",
       "githubStars": 39293
+    },
+    {
+      "id": "v2ray-core",
+      "name": "V2ray Core",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "A platform for building proxies to bypass network restrictions.",
+      "icon": "",
+      "size": "18MB",
+      "version": "5.53.0",
+      "updatedDate": "2026-08-01",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A platform for building proxies to b"
+        },
+        {
+          "title": "ypass network restrictions."
+        },
+        {
+          "title": "核心基于 Go 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#anticensorship #hacktoberfest #network #proxy"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/v2fly/v2ray-core",
+      "githubStars": 34504
+    },
+    {
+      "id": "windterm",
+      "name": "WindTerm",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+      "icon": "",
+      "size": "37MB",
+      "version": "2.7.0",
+      "updatedDate": "2025-03-10",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A professional cross-platform SSH/Sf"
+        },
+        {
+          "title": "tp/Shell/Telnet/Tmux/Serial terminal."
+        },
+        {
+          "title": "核心基于 C 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bash #client #cmd #linux"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/kingToolbox/WindTerm",
+      "githubStars": 32054
+    },
+    {
+      "id": "koodo-reader",
+      "name": "Koodo Reader",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A modern ebook manager and reader with sync and backup capacities for Windows, m",
+      "icon": "",
+      "size": "117MB",
+      "version": "2.4.3",
+      "updatedDate": "2026-07-31",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A modern ebook manager and reader wi"
+        },
+        {
+          "title": "th sync and backup capacities for Window"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#book #cb7 #cbr #cbt"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/koodo-reader/koodo-reader",
+      "githubStars": 27967
     },
     {
       "id": "handbrake",
@@ -262,6 +412,36 @@
       "githubStars": 24158
     },
     {
+      "id": "brave-browser",
+      "name": "Brave Browser",
+      "platform": "android",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+      "icon": "",
+      "size": "380MB",
+      "version": "1.93.138",
+      "updatedDate": "2026-08-20",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Brave browser for Android, iOS"
+        },
+        {
+          "title": "Linux, macOS, Windows."
+        },
+        {
+          "title": "关键词标签：#brave #browser #chromium #linux"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/brave/brave-browser",
+      "githubStars": 23438
+    },
+    {
       "id": "maa",
       "name": "MAA 明日方舟助手",
       "platform": "windows",
@@ -295,6 +475,186 @@
       "githubStars": 22771
     },
     {
+      "id": "nekoboxforandroid",
+      "name": "NekoBoxForAndroid",
+      "platform": "android",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "NekoBox for Android / sing-box / universal proxy toolchain for Android",
+      "icon": "",
+      "size": "15MB",
+      "version": "1.4.2",
+      "updatedDate": "2026-02-08",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "NekoBox for Android / sing-box / uni"
+        },
+        {
+          "title": "versal proxy toolchain for Android"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #gfw #proxy #shadowsocks"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+      "githubStars": 22435
+    },
+    {
+      "id": "bulk-crap-uninstaller",
+      "name": "Bulk Crap Uninstaller",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Remove large amounts of unwanted applications quickly.",
+      "icon": "",
+      "size": "9MB",
+      "version": "6.2",
+      "updatedDate": "2026-06-08",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Remove large amounts of unwanted app"
+        },
+        {
+          "title": "lications quickly."
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#application-manager #application-uninstaller #bloatware #bulk-actions"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
+      "githubStars": 20967
+    },
+    {
+      "id": "animeko",
+      "name": "Animeko",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Mu",
+      "icon": "",
+      "size": "35MB",
+      "version": "6.0.0",
+      "updatedDate": "2026-07-31",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)"
+        },
+        {
+          "title": "离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compos"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #ani #anime #bangumi"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/open-ani/animeko",
+      "githubStars": 19754
+    },
+    {
+      "id": "pot-desktop",
+      "name": "Pot Desktop",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "🌈一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognit",
+      "icon": "",
+      "size": "178MB",
+      "version": "3.0.7",
+      "updatedDate": "2025-05-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🌈一个跨平台的划词翻译和OCR软件 | A cross-platfor"
+        },
+        {
+          "title": "m software for text translation and reco"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#linux #macos #ocr #pot"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/pot-app/pot-desktop",
+      "githubStars": 19334
+    },
+    {
+      "id": "yaak",
+      "name": "Yaak",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSo",
+      "icon": "",
+      "size": "41MB",
+      "version": "2026.6.0",
+      "updatedDate": "2026-08-13",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "The most intuitive desktop API clien"
+        },
+        {
+          "title": "t. Organize and execute REST, GraphQL, W"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bruno-alternative #graphql #grpc #http"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mountain-loop/yaak",
+      "githubStars": 19115
+    },
+    {
+      "id": "videocaptioner",
+      "name": "VideoCaptioner",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered",
+      "icon": "",
+      "size": "6MB",
+      "version": "1.4.2",
+      "updatedDate": "2026-05-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM"
+        },
+        {
+          "title": "的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A pow"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ai #subtitle #translate #video-subtile"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/WEIFENG2333/VideoCaptioner",
+      "githubStars": 15740
+    },
+    {
       "id": "flow-launcher",
       "name": "Flow Launcher",
       "platform": "windows",
@@ -326,6 +686,246 @@
       "downloadSources": [],
       "githubUrl": "https://github.com/Flow-Launcher/Flow.Launcher",
       "githubStars": 15429
+    },
+    {
+      "id": "gluetun",
+      "name": "Gluetun",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "VPN client in a thin Docker container for multiple VPN providers, written in Go,",
+      "icon": "",
+      "size": "N/A",
+      "version": "3.41.3",
+      "updatedDate": "2026-07-29",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "VPN client in a thin Docker containe"
+        },
+        {
+          "title": "r for multiple VPN providers, written in"
+        },
+        {
+          "title": "核心基于 Go 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#alpine #cyberghost #dns-over-tls #docker"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/passteque/gluetun",
+      "githubStars": 15287
+    },
+    {
+      "id": "electerm",
+      "name": "Electerm",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windo",
+      "icon": "",
+      "size": "100MB",
+      "version": "5.3.5",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "📻Terminal/ssh/sftp/ftp/telnet/seria"
+        },
+        {
+          "title": "lport/RDP/VNC/Spice client(Linux, Mac, W"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ai #android #electerm #electron"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/electerm/electerm",
+      "githubStars": 14917
+    },
+    {
+      "id": "browseros",
+      "name": "BrowserOS",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Com",
+      "icon": "",
+      "size": "1MB",
+      "version": "ext-browserclaw/v0.2.17.0",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🌐 The open-source Agentic browser"
+        },
+        {
+          "title": "alternative to ChatGPT Atlas, Perplexity"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#agent #browser #browseros #chromium"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/browseros-ai/BrowserOS",
+      "githubStars": 13333
+    },
+    {
+      "id": "autohotkey",
+      "name": "AutoHotkey",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "AutoHotkey - macro-creation and automation-oriented scripting utility for Window",
+      "icon": "",
+      "size": "3MB",
+      "version": "2.0.26",
+      "updatedDate": "2026-05-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "AutoHotkey - macro-creation and auto"
+        },
+        {
+          "title": "mation-oriented scripting utility for Wi"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#autohotkey #automation #c-plus-plus #hotkeys"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/AutoHotkey/AutoHotkey",
+      "githubStars": 13010
+    },
+    {
+      "id": "rubocop",
+      "name": "Rubocop",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A Ruby static code analyzer and formatter, based on the community Ruby style gui",
+      "icon": "",
+      "size": "N/A",
+      "version": "1.90.0",
+      "updatedDate": "2026-08-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A Ruby static code analyzer and form"
+        },
+        {
+          "title": "atter, based on the community Ruby style"
+        },
+        {
+          "title": "核心基于 Ruby 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#code-formatter #hacktoberfest #linter #rubocop"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/rubocop/rubocop",
+      "githubStars": 12897
+    },
+    {
+      "id": "video-subtitle-remover",
+      "name": "Video Subtitle Remover",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for",
+      "icon": "",
+      "size": "731MB",
+      "version": "1.4.0",
+      "updatedDate": "2026-04-08",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "基于AI的图片/视频硬字幕去除、文本水印去除"
+        },
+        {
+          "title": "无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ai #deepleanring #sub-remove #subtile"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/YaoFANGUK/video-subtitle-remover",
+      "githubStars": 12516
+    },
+    {
+      "id": "devicon",
+      "name": "Devicon",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Set of icons representing programming languages, designing & development tools",
+      "icon": "",
+      "size": "N/A",
+      "version": "2.17.0",
+      "updatedDate": "2025-07-20",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Set of icons representing programmin"
+        },
+        {
+          "title": "g languages, designing & development too"
+        },
+        {
+          "title": "核心基于 CSS 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#brands #devicon #font #hacktoberfest"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/devicons/devicon",
+      "githubStars": 11786
+    },
+    {
+      "id": "cefsharp",
+      "name": "CefSharp",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework",
+      "icon": "",
+      "size": "N/A",
+      "version": "151.3.170",
+      "updatedDate": "2026-08-15",
+      "popularity": 0,
+      "features": [
+        {
+          "title": ".NET (WPF and Windows Forms) bindings"
+        },
+        {
+          "title": "for the Chromium Embedded Framework"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#browser #c-plus-plus #c-sharp #cefsharp"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/cefsharp/CefSharp",
+      "githubStars": 10245
     },
     {
       "id": "Mineradio",
@@ -383,7 +983,2977 @@
         }
       ],
       "githubUrl": "https://github.com/XxHuberrr/Mineradio",
-      "githubStars": 10230
+      "githubStars": 10231
+    },
+    {
+      "id": "notepads",
+      "name": "Notepads",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "A modern, lightweight text editor with a minimalist design.",
+      "icon": "",
+      "size": "31MB",
+      "version": "1.5.6.0",
+      "updatedDate": "2025-03-27",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A modern"
+        },
+        {
+          "title": "lightweight text editor with a minimalis"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#app #diff-viewer #fluent #markdown"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/0x7c13/Notepads",
+      "githubStars": 10225
+    },
+    {
+      "id": "sqlfluff",
+      "name": "Sqlfluff",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A modular SQL linter and auto-formatter with support for multiple dialects and t",
+      "icon": "",
+      "size": "N/A",
+      "version": "4.3.0",
+      "updatedDate": "2026-08-06",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A modular SQL linter and auto-format"
+        },
+        {
+          "title": "ter with support for multiple dialects a"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#hacktoberfest #pypi #sql #sql-linter"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/sqlfluff/sqlfluff",
+      "githubStars": 9860
+    },
+    {
+      "id": "video-subtitle-extractor",
+      "name": "Video Subtitle Extractor",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool f",
+      "icon": "",
+      "size": "774MB",
+      "version": "2.2.0",
+      "updatedDate": "2026-04-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别"
+        },
+        {
+          "title": "基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI to"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#deep-learning #extract #hardsub #ocr"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/YaoFANGUK/video-subtitle-extractor",
+      "githubStars": 9394
+    },
+    {
+      "id": "omniget",
+      "name": "Omniget",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sit",
+      "icon": "",
+      "size": "45MB",
+      "version": "0.8.6",
+      "updatedDate": "2026-08-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Download Udemy and Hotmart courses"
+        },
+        {
+          "title": "YouTube videos, music and books — 1,800+"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bilibili-downloader #course-downloader #download-manager #downloader"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/tonhowtf/omniget",
+      "githubStars": 8954
+    },
+    {
+      "id": "eva-icons",
+      "name": "Eva Icons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch, Web ",
+      "icon": "",
+      "size": "N/A",
+      "version": "1.1.3",
+      "updatedDate": "2020-03-01",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A pack of more than 480 beautifully"
+        },
+        {
+          "title": "crafted Open Source icons. SVG, Sketch,"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#icon #icon-font #icon-pack #icons"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/akveo/eva-icons",
+      "githubStars": 8818
+    },
+    {
+      "id": "icons",
+      "name": "Icons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Official open source SVG icon library for Bootstrap.",
+      "icon": "",
+      "size": "2MB",
+      "version": "1.13.1",
+      "updatedDate": "2025-05-08",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Official open source SVG icon librar"
+        },
+        {
+          "title": "y for Bootstrap."
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bootstrap #font #icons #sprite"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/twbs/icons",
+      "githubStars": 8108
+    },
+    {
+      "id": "podman-desktop",
+      "name": "Podman Desktop",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Podman Desktop is the best free and open source tool to work with Containers and",
+      "icon": "",
+      "size": "379MB",
+      "version": "1.29.1",
+      "updatedDate": "2026-07-30",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Podman Desktop is the best free and"
+        },
+        {
+          "title": "open source tool to work with Containers"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#container #containers #desktop #docker"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/podman-desktop/podman-desktop",
+      "githubStars": 7962
+    },
+    {
+      "id": "microsandbox",
+      "name": "Microsandbox",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "🧱 easy fast local-first microVM runtime and library",
+      "icon": "",
+      "size": "32MB",
+      "version": "0.6.15",
+      "updatedDate": "2026-08-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🧱 easy fast local-first microVM run"
+        },
+        {
+          "title": "time and library"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#agents #docker #golang #linux"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/superradcompany/microsandbox",
+      "githubStars": 7917
+    },
+    {
+      "id": "saltplayersource",
+      "name": "SaltPlayerSource",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "Salt Player (A local music player trusted and chosen by hundreds of thousands of",
+      "icon": "",
+      "size": "11MB",
+      "version": "12.2.0",
+      "updatedDate": "2026-08-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Salt Player (A local music player tr"
+        },
+        {
+          "title": "usted and chosen by hundreds of thousand"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        },
+        {
+          "title": "MIT / GPL 等开源协议，可白名单二次分发"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Moriafly/SaltPlayerSource",
+      "githubStars": 7228
+    },
+    {
+      "id": "esearch",
+      "name": "ESearch",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 万向滚动截屏 屏幕翻译 Screenshot Offline OCR Search Translate Sea",
+      "icon": "",
+      "size": "235MB",
+      "version": "15.4.2",
+      "updatedDate": "2026-08-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 万向滚动截屏 屏幕翻译"
+        },
+        {
+          "title": "Screenshot Offline OCR Search Translate"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#clipboard #color-picker #cross-platform #electron"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/xushengfeng/eSearch",
+      "githubStars": 7019
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Powerful context menu manager for Windows File Explorer",
+      "icon": "",
+      "size": "N/A",
+      "version": "1.9.15",
+      "updatedDate": "2024-02-13",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Powerful context menu manager for Wi"
+        },
+        {
+          "title": "ndows File Explorer"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#context-menu #file-explorer #nilesoft-shell #right-click"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/moudey/Shell",
+      "githubStars": 6790
+    },
+    {
+      "id": "sigma-file-manager",
+      "name": "Sigma File Manager",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manag",
+      "icon": "",
+      "size": "15MB",
+      "version": "2.2.0",
+      "updatedDate": "2026-07-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "\"Sigma File Manager\" is a free"
+        },
+        {
+          "title": "open-source, quickly evolving, modern fi"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#app #electron #electron-app #electronjs"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/aleksey-hoffman/sigma-file-manager",
+      "githubStars": 6503
+    },
+    {
+      "id": "x11docker",
+      "name": "X11docker",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Run GUI applications and desktops in docker and podman containers. Focus on secu",
+      "icon": "",
+      "size": "N/A",
+      "version": "7.7.1",
+      "updatedDate": "2025-11-22",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Run GUI applications and desktops in"
+        },
+        {
+          "title": "docker and podman containers. Focus on s"
+        },
+        {
+          "title": "核心基于 Shell 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#containers #desktop #docker #gpu"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mviereck/x11docker",
+      "githubStars": 6302
+    },
+    {
+      "id": "namida",
+      "name": "Namida",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in",
+      "icon": "",
+      "size": "50MB",
+      "version": "6.0.1",
+      "updatedDate": "2026-04-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A Beautiful and Feature-rich Music &"
+        },
+        {
+          "title": "Video Player with Youtube Support, Built"
+        },
+        {
+          "title": "核心基于 Dart 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #android-app #android-music-player #audio-player"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/namidaco/namida",
+      "githubStars": 6279
+    },
+    {
+      "id": "pixelplayer",
+      "name": "PixelPlayer",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "privacy-first Android music player built with Material 3 Expressive. Play offlin",
+      "icon": "",
+      "size": "63MB",
+      "version": "0.7.5-beta",
+      "updatedDate": "2026-06-12",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "privacy-first Android music player b"
+        },
+        {
+          "title": "uilt with Material 3 Expressive. Play of"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/PixelPlayerHQ/PixelPlayer",
+      "githubStars": 6194
+    },
+    {
+      "id": "funclip",
+      "name": "FunClip",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clippi",
+      "icon": "",
+      "size": "34MB",
+      "version": "2.1.1",
+      "updatedDate": "2026-08-02",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "FunASR-powered video transcription"
+        },
+        {
+          "title": "subtitle generation, and LLM-assisted cl"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ai-tools #ai-video-editing #asr #auto-subtitles"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/modelscope/FunClip",
+      "githubStars": 6186
+    },
+    {
+      "id": "awesome-vpn",
+      "name": "Awesome Vpn",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Free proxy node aggregator. Daily updated vmess/vless/trojan/ss. 免费 代理节点 翻墙 梯子 科",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Free proxy node aggregator"
+        },
+        {
+          "title": "Daily updated vmess/vless/trojan/ss. 免费"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#clash #clashvergerev #fanqiang #free"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/awesome-vpn/awesome-vpn",
+      "githubStars": 6182
+    },
+    {
+      "id": "macaw",
+      "name": "Macaw",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Powerful and easy-to-use vector graphics Swift library with SVG support",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2024-02-06",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Powerful and easy-to-use vector grap"
+        },
+        {
+          "title": "hics Swift library with SVG support"
+        },
+        {
+          "title": "核心基于 Swift 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#animation #drawing #graphics #ios"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/exyte/Macaw",
+      "githubStars": 6048
+    },
+    {
+      "id": "clipboard",
+      "name": "Clipboard",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager",
+      "icon": "",
+      "size": "20MB",
+      "version": "0.10.0",
+      "updatedDate": "2024-11-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "😎🏖️🐬 Your new"
+        },
+        {
+          "title": "𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart c"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bash #cli #clipboard #clipboard-manager"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Slackadays/Clipboard",
+      "githubStars": 5889
+    },
+    {
+      "id": "proxysu",
+      "name": "ProxySU",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Xray,V2ray，Trojan，NaiveProxy, Trojan-Go, ShadowsocksR(SSR),Shadowsocks-libev及相关插",
+      "icon": "",
+      "size": "2MB",
+      "version": "4.3.0",
+      "updatedDate": "2025-09-20",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Xray,V2ray，Trojan，NaiveProxy"
+        },
+        {
+          "title": "Trojan-Go, ShadowsocksR(SSR),Shadowsocks"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ipv6 #mtproto-proxy #mtproto-tls #naiveproxy"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/proxysu/ProxySU",
+      "githubStars": 5703
+    },
+    {
+      "id": "miru-app",
+      "name": "Miru App",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "🎉 A versatile application that is free, open-source, and supports extension sou",
+      "icon": "",
+      "size": "19MB",
+      "version": "1.8.1",
+      "updatedDate": "2024-01-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🎉 A versatile application that is f"
+        },
+        {
+          "title": "ree, open-source, and supports extension"
+        },
+        {
+          "title": "核心基于 Dart 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #anime #apk #bangumi"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/miru-project/miru-app",
+      "githubStars": 5606
+    },
+    {
+      "id": "outertune",
+      "name": "OuterTune",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A Material 3 Music Player for Android with local file & YouTube Music support. F",
+      "icon": "",
+      "size": "27MB",
+      "version": "0.10.1",
+      "updatedDate": "2025-12-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A Material 3 Music Player for Androi"
+        },
+        {
+          "title": "d with local file & YouTube Music suppor"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #jetpack-compose #material-ui #music-player"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/OuterTune/OuterTune",
+      "githubStars": 5358
+    },
+    {
+      "id": "mpv-net",
+      "name": "Mpv.Net",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "🎞 mpv.net is a media player for Windows with a modern GUI.",
+      "icon": "",
+      "size": "36MB",
+      "version": "7.1.2.0",
+      "updatedDate": "2026-01-08",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🎞 mpv"
+        },
+        {
+          "title": "net is a media player for Windows with a"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio-player #command-line #dotnet #ffmpeg"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mpvnet-player/mpv.net",
+      "githubStars": 5348
+    },
+    {
+      "id": "mpc-hc",
+      "name": "Mpc Hc",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "MPC-HC's main repository. For support use our Trac: https://trac.mpc-hc.org/",
+      "icon": "",
+      "size": "14MB",
+      "version": "1.7.13",
+      "updatedDate": "2020-05-06",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "MPC-HC's main repository"
+        },
+        {
+          "title": "For support use our Trac: https://trac.m"
+        },
+        {
+          "title": "核心基于 C 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio #c-plus-plus #cinema #directshow"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mpc-hc/mpc-hc",
+      "githubStars": 5285
+    },
+    {
+      "id": "android-iconics",
+      "name": "Android Iconics",
+      "platform": "android",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Android-Iconics - Use any icon font, or vector (.svg) as drawable in your applic",
+      "icon": "",
+      "size": "15MB",
+      "version": "5.6.0",
+      "updatedDate": "2026-08-19",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Android-Iconics - Use any icon font"
+        },
+        {
+          "title": "or vector (.svg) as drawable in your app"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #android-compose #android-development #android-icon"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mikepenz/Android-Iconics",
+      "githubStars": 5274
+    },
+    {
+      "id": "retromusicplayer",
+      "name": "RetroMusicPlayer",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "Best Material You Design music player for Android",
+      "icon": "",
+      "size": "9MB",
+      "version": "7.0.3",
+      "updatedDate": "2026-08-12",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Best Material You Design music playe"
+        },
+        {
+          "title": "r for Android"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #android-music-player #gssoc22 #hacktoberfest"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
+      "githubStars": 5272
+    },
+    {
+      "id": "archivetune",
+      "name": "ArchiveTune",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android",
+      "icon": "",
+      "size": "33MB",
+      "version": "14.1.0",
+      "updatedDate": "2026-08-07",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🌸 The Cutest Music Player With Supp"
+        },
+        {
+          "title": "ort Local File and Youtube Music for And"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android-application #android-studio #foss #jetpack-compose"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/rukamori/ArchiveTune",
+      "githubStars": 5178
+    },
+    {
+      "id": "fq-book",
+      "name": "Fq Book",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "📖《这本书能让你连接互联网》 详细阐述代理、隧道、VPN运作过程，并对GFW策略如：地址端口封锁、服务器缓存投毒、数字验证攻击、SSL连接阻断做相关的原理说明",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-08-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "📖《这本书能让你连接互联网》 详细阐述代理、隧道、VPN运作过程"
+        },
+        {
+          "title": "并对GFW策略如：地址端口封锁、服务器缓存投毒、数字验证攻击、SSL连接阻断做相"
+        },
+        {
+          "title": "核心基于 Shell 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#deep-web #digital-certificate #fq-book #gfw"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/hoochanlon/fq-book",
+      "githubStars": 4253
+    },
+    {
+      "id": "auxio",
+      "name": "Auxio",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A simple, rational music player for android",
+      "icon": "",
+      "size": "11MB",
+      "version": "4.1.5",
+      "updatedDate": "2026-08-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A simple"
+        },
+        {
+          "title": "rational music player for android"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#album #android #androidx #audio"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/OxygenCobalt/Auxio",
+      "githubStars": 4195
+    },
+    {
+      "id": "cloak",
+      "name": "Cloak",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "A censorship circumvention tool to evade detection by authoritarian state advers",
+      "icon": "",
+      "size": "10MB",
+      "version": "2.12.0",
+      "updatedDate": "2025-07-22",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A censorship circumvention tool to e"
+        },
+        {
+          "title": "vade detection by authoritarian state ad"
+        },
+        {
+          "title": "核心基于 Go 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#censorship #censorship-circumvention #gfw #openvpn"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/cbeuw/Cloak",
+      "githubStars": 4068
+    },
+    {
+      "id": "desktop",
+      "name": "Desktop",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "🚀 HTTPie Desktop — cross-platform API testing client for humans. Painlessly tes",
+      "icon": "",
+      "size": "75MB",
+      "version": "2025.2.0",
+      "updatedDate": "2025-03-13",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🚀 HTTPie Desktop — cross-platform A"
+        },
+        {
+          "title": "PI testing client for humans. Painlessly"
+        },
+        {
+          "title": "关键词标签：#api #api-client #api-testing #desktop"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/httpie/desktop",
+      "githubStars": 4029
+    },
+    {
+      "id": "icono",
+      "name": "Icono",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "One tag One icon, no font or svg, Pure CSS",
+      "icon": "",
+      "size": "N/A",
+      "version": "1.3.0",
+      "updatedDate": "2015-02-01",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "One tag One icon, no font or svg"
+        },
+        {
+          "title": "Pure CSS"
+        },
+        {
+          "title": "核心基于 SCSS 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#css #css3 #icono #iconsets"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/saeedalipoor/icono",
+      "githubStars": 3971
+    },
+    {
+      "id": "termora",
+      "name": "Termora",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Termora is a terminal emulator and SSH client for Windows, macOS and Linux.",
+      "icon": "",
+      "size": "58MB",
+      "version": "1.0.17",
+      "updatedDate": "2025-06-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Termora is a terminal emulator and S"
+        },
+        {
+          "title": "SH client for Windows, macOS and Linux."
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/TermoraDev/termora",
+      "githubStars": 3793
+    },
+    {
+      "id": "customactivityoncrash",
+      "name": "CustomActivityOnCrash",
+      "platform": "android",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Android library that allows launching a custom activity when your app crashes, i",
+      "icon": "",
+      "size": "N/A",
+      "version": "2.4.0",
+      "updatedDate": "2022-05-28",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Android library that allows launchin"
+        },
+        {
+          "title": "g a custom activity when your app crashe"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Ereza/CustomActivityOnCrash",
+      "githubStars": 3757
+    },
+    {
+      "id": "stylishmusicplayer",
+      "name": "StylishMusicPlayer",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A stylish music player for android device 16+",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2020-05-12",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A stylish music player for android d"
+        },
+        {
+          "title": "evice 16+"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ryanhoo/StylishMusicPlayer",
+      "githubStars": 3688
+    },
+    {
+      "id": "music-player",
+      "name": "Music Player",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "From UI Proposal to Code :notes::arrow_forward:",
+      "icon": "",
+      "size": "N/A",
+      "version": "SNAPSHOT3",
+      "updatedDate": "2018-02-13",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "From UI Proposal to Code :notes::arr"
+        },
+        {
+          "title": "ow_forward:"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #motion-design #music #music-player"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/andremion/Music-Player",
+      "githubStars": 3505
+    },
+    {
+      "id": "flutter-netease-music",
+      "name": "Flutter Netease Music",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "flutter music player application. (仿网易云音乐)",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2024-01-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "flutter music player application"
+        },
+        {
+          "title": "(仿网易云音乐)"
+        },
+        {
+          "title": "关键词标签：#android #android-application #dart #flutter"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/boyan01/flutter-netease-music",
+      "githubStars": 3456
+    },
+    {
+      "id": "mago",
+      "name": "Mago",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Mago is a toolchain for PHP that aims to provide a set of tools to help develope",
+      "icon": "",
+      "size": "10MB",
+      "version": "1.47.4",
+      "updatedDate": "2026-08-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Mago is a toolchain for PHP that aim"
+        },
+        {
+          "title": "s to provide a set of tools to help deve"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#code-analyzer #code-style #coding-standards #formatter"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/carthage-software/mago",
+      "githubStars": 3408
+    },
+    {
+      "id": "ttime",
+      "name": "TTime",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "🚀 Screenshots, word marking, OCR, AI, translation software || 截图、划词、文字识别、AI、翻译软",
+      "icon": "",
+      "size": "144MB",
+      "version": "0.9.15",
+      "updatedDate": "2024-12-14",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "🚀 Screenshots, word marking, OCR"
+        },
+        {
+          "title": "AI, translation software || 截图、划词、文字识别、A"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#ai #exe #macos #ocr"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/InkTimeRecord/TTime",
+      "githubStars": 3345
+    },
+    {
+      "id": "explorerplusplus",
+      "name": "Explorerplusplus",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Explorer++ is a lightweight and fast file manager for Windows",
+      "icon": "",
+      "size": "2MB",
+      "version": "ersion-1.4.0",
+      "updatedDate": "2024-01-27",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Explorer++ is a lightweight and fast"
+        },
+        {
+          "title": "file manager for Windows"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#c-plus-plus #file-manager #windows #windows-api"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/derceg/explorerplusplus",
+      "githubStars": 3272
+    },
+    {
+      "id": "keyguard-app",
+      "name": "Keyguard App",
+      "platform": "android",
+      "category": "security",
+      "categoryName": "安全隐私",
+      "description": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It",
+      "icon": "",
+      "size": "62MB",
+      "version": "r20260819.2",
+      "updatedDate": "2026-08-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A password manager that supports Bit"
+        },
+        {
+          "title": "warden platform and KeePass (KDBX) files"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #bitwarden #compose #desktop"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/AChep/keyguard-app",
+      "githubStars": 3198
+    },
+    {
+      "id": "china-dictatorship",
+      "name": "China Dictatorship",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新",
+      "icon": "",
+      "size": "1MB",
+      "version": "0.0.74",
+      "updatedDate": "2023-11-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "反中共政治宣传库"
+        },
+        {
+          "title": "Anti Chinese government propaganda. 住在中国"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#996 #censorship #censorship-circumvention #china"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/cirosantilli/china-dictatorship",
+      "githubStars": 3162
+    },
+    {
+      "id": "pint",
+      "name": "Pint",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Laravel Pint is an opinionated PHP code style fixer for minimalists.",
+      "icon": "",
+      "size": "21MB",
+      "version": "1.30.5",
+      "updatedDate": "2026-08-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Laravel Pint is an opinionated PHP c"
+        },
+        {
+          "title": "ode style fixer for minimalists."
+        },
+        {
+          "title": "核心基于 PHP 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#format #formatter #lint #linter"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/laravel/pint",
+      "githubStars": 3153
+    },
+    {
+      "id": "qlty",
+      "name": "Qlty",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "💎 Code quality CLI for universal linting, auto-formatting, security scanning, a",
+      "icon": "",
+      "size": "14MB",
+      "version": "0.643.0",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "💎 Code quality CLI for universal li"
+        },
+        {
+          "title": "nting, auto-formatting, security scannin"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#code-quality #formatter #linter #quality"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/qltysh/qlty",
+      "githubStars": 3125
+    },
+    {
+      "id": "neriplayer",
+      "name": "NeriPlayer",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A native Android audio player that combines multi-source streaming, local contro",
+      "icon": "",
+      "size": "11MB",
+      "version": "NeriPlayer-538a8d56.08210424",
+      "updatedDate": "2026-08-19",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A native Android audio player that c"
+        },
+        {
+          "title": "ombines multi-source streaming, local co"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #equalizer #exoplayer #glsl"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/cwuom/NeriPlayer",
+      "githubStars": 2879
+    },
+    {
+      "id": "musicdna",
+      "name": "MusicDNA",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A Music Player for android that renders beautiful DNA(Visualization) of the curr",
+      "icon": "",
+      "size": "6MB",
+      "version": "1.2.0",
+      "updatedDate": "2017-05-25",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A Music Player for android that rend"
+        },
+        {
+          "title": "ers beautiful DNA(Visualization) of the"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #music-player #soundcloud #visualizer"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/harjot-oberai/MusicDNA",
+      "githubStars": 2853
+    },
+    {
+      "id": "ponymusic",
+      "name": "Ponymusic",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "An Android online music player like NetEase Cloud Music, based on Media3 and Exo",
+      "icon": "",
+      "size": "9MB",
+      "version": "2.4.0-beta01",
+      "updatedDate": "2025-10-29",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "An Android online music player like"
+        },
+        {
+          "title": "NetEase Cloud Music, based on Media3 and"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #music-player #netease-cloud-music"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/wangchenyan/ponymusic",
+      "githubStars": 2847
+    },
+    {
+      "id": "tauon",
+      "name": "Tauon",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "The music player of today! :city_sunrise:",
+      "icon": "",
+      "size": "90MB",
+      "version": "12.0.0",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "The music player of today! :city_sun"
+        },
+        {
+          "title": "rise:"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio #desktop-app #flac #flatpak"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Taiko2k/Tauon",
+      "githubStars": 2824
+    },
+    {
+      "id": "phonograph",
+      "name": "Phonograph",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A material designed music player for Android",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2022-09-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A material designed music player for"
+        },
+        {
+          "title": "Android"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #java #material-design #music-player"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/karimknaebel/Phonograph",
+      "githubStars": 2742
+    },
+    {
+      "id": "mindforger",
+      "name": "Mindforger",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "Thinking notebook and Markdown editor.",
+      "icon": "",
+      "size": "88MB",
+      "version": "2.0.0",
+      "updatedDate": "2024-02-15",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Thinking notebook and Markdown editor."
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#debian #ide #knowledge #knowledge-management"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/dvorka-oss/mindforger",
+      "githubStars": 2715
+    },
+    {
+      "id": "tiez-clipboard",
+      "name": "Tiez Clipboard",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "TieZ 是一款基于 Tauri 的跨平台剪贴板管理器 / A cross-platform clipboard manager with history, t",
+      "icon": "",
+      "size": "7MB",
+      "version": "mac-v0.1.3",
+      "updatedDate": "2026-04-10",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "TieZ 是一款基于 Tauri 的跨平台剪贴板管理器 / A cros"
+        },
+        {
+          "title": "s-platform clipboard manager with histor"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#clipboard-manager #desktop-app #macos #mqtt"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/jimuzhe/tiez-clipboard",
+      "githubStars": 2561
+    },
+    {
+      "id": "vue-awesome",
+      "name": "Vue Awesome",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Awesome SVG icon component for Vue.js, built-in with Font Awesome icons.",
+      "icon": "",
+      "size": "N/A",
+      "version": "3.1.0",
+      "updatedDate": "2018-08-05",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Awesome SVG icon component for Vue"
+        },
+        {
+          "title": "js, built-in with Font Awesome icons."
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#font-awesome #icon #svg #vue"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Justineo/vue-awesome",
+      "githubStars": 2426
+    },
+    {
+      "id": "dopamine",
+      "name": "Dopamine",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "The audio player that keeps it simple",
+      "icon": "",
+      "size": "128MB",
+      "version": "3.0.9",
+      "updatedDate": "2026-08-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "The audio player that keeps it simple"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#electron #linux #mac #music"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/digimezzo/dopamine",
+      "githubStars": 2327
+    },
+    {
+      "id": "gramophone",
+      "name": "Gramophone",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A sane music player built with media3 and material design library that is follow",
+      "icon": "",
+      "size": "12MB",
+      "version": "1.1.2",
+      "updatedDate": "2026-08-19",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A sane music player built with media"
+        },
+        {
+          "title": "3 and material design library that is fo"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #f-droid #fdroid #kotlin"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/FoedusProgramme/Gramophone",
+      "githubStars": 2242
+    },
+    {
+      "id": "awesome-markdown-editors",
+      "name": "Awesome Markdown Editors",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "A collection of awesome markdown editors & (pre)viewers for Linux, Apple OS X, M",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-08-05",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A collection of awesome markdown edi"
+        },
+        {
+          "title": "tors & (pre)viewers for Linux, Apple OS"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        },
+        {
+          "title": "MIT / GPL 等开源协议，可白名单二次分发"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mundimark/awesome-markdown-editors",
+      "githubStars": 2241
+    },
+    {
+      "id": "anaconda",
+      "name": "Anaconda",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Anaconda turns your Sublime Text 3 in a full featured Python development IDE inc",
+      "icon": "",
+      "size": "N/A",
+      "version": "2.3.0",
+      "updatedDate": "2022-02-28",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Anaconda turns your Sublime Text 3 i"
+        },
+        {
+          "title": "n a full featured Python development IDE"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#anaconda #ide-features #python #sublime-text"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/DamnWidget/anaconda",
+      "githubStars": 2240
+    },
+    {
+      "id": "1hosts",
+      "name": "1Hosts",
+      "platform": "android",
+      "category": "security",
+      "categoryName": "安全隐私",
+      "description": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.",
+      "icon": "",
+      "size": "38MB",
+      "version": "latest",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Advanced DNS filter/blocklists for p"
+        },
+        {
+          "title": "rivacy, security, and clean browsing."
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#adaway #adblock #adguard #ads"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/badmojr/1Hosts",
+      "githubStars": 2205
+    },
+    {
+      "id": "weektodo",
+      "name": "Weektodo",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "WeekToDo is a Free and Open Source Minimalist Weekly Planner and To Do list App ",
+      "icon": "",
+      "size": "82MB",
+      "version": "2.2.0",
+      "updatedDate": "2024-02-11",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "WeekToDo is a Free and Open Source M"
+        },
+        {
+          "title": "inimalist Weekly Planner and To Do list"
+        },
+        {
+          "title": "核心基于 Vue 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#calendar #linux #macos #productivity"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/manuelernestog/weektodo",
+      "githubStars": 2142
+    },
+    {
+      "id": "pastebarapp",
+      "name": "PasteBarApp",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "PasteBar - Limitless, Free Clipboard Manager for Mac and Windows",
+      "icon": "",
+      "size": "33MB",
+      "version": "0.7.0",
+      "updatedDate": "2025-06-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "PasteBar - Limitless"
+        },
+        {
+          "title": "Free Clipboard Manager for Mac and Windo"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#clipboard #clipboard-copy #clipboard-history #clipboard-manager"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/PasteBar/PasteBarApp",
+      "githubStars": 2139
+    },
+    {
+      "id": "styled-icons",
+      "name": "Styled Icons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "💅 Popular icon packs like Font Awesome, Material Design, and Octicons, availabl",
+      "icon": "",
+      "size": "N/A",
+      "version": "styled-icons@10.47.1",
+      "updatedDate": "2024-04-04",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "💅 Popular icon packs like Font Awes"
+        },
+        {
+          "title": "ome, Material Design, and Octicons, avai"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#boxicons #cryptoicons #evil-icons #feather-icons"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/styled-icons/styled-icons",
+      "githubStars": 2099
+    },
+    {
+      "id": "coreui-icons",
+      "name": "Coreui Icons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont an",
+      "icon": "",
+      "size": "N/A",
+      "version": "3.1.0",
+      "updatedDate": "2026-04-15",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "CoreUI Free Icons - Premium designed"
+        },
+        {
+          "title": "free icon set with marks in SVG, Webfont"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#brand-icons #coreui-icons #font #icon-font"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/coreui/coreui-icons",
+      "githubStars": 2092
+    },
+    {
+      "id": "podroid",
+      "name": "Podroid",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LX",
+      "icon": "",
+      "size": "297MB",
+      "version": "1.2.8",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A rootless Android app that boots Al"
+        },
+        {
+          "title": "pine Linux: run containers (Podman/Docke"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android-app #android-virtualization-framework #linux #shell"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ExTV/Podroid",
+      "githubStars": 2080
+    },
+    {
+      "id": "selkies",
+      "name": "Selkies",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Open-Source Low-Latency Accelerated Linux WebRTC HTML5 Remote Desktop Streaming ",
+      "icon": "",
+      "size": "1MB",
+      "version": "1.6.2",
+      "updatedDate": "2024-08-14",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Open-Source Low-Latency Accelerated"
+        },
+        {
+          "title": "Linux WebRTC HTML5 Remote Desktop Stream"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#cloud-gaming #docker #game-streaming #gpu"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/selkies-project/selkies",
+      "githubStars": 2057
+    },
+    {
+      "id": "dopamine-windows",
+      "name": "Dopamine Windows",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "Audio player which tries to make organizing and listening to music as simple and",
+      "icon": "",
+      "size": "34MB",
+      "version": "2.0.10.4000",
+      "updatedDate": "2024-08-10",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Audio player which tries to make org"
+        },
+        {
+          "title": "anizing and listening to music as simple"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/digimezzo/dopamine-windows",
+      "githubStars": 2050
+    },
+    {
+      "id": "maker-js",
+      "name": "Maker.Js",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "📐⚙ 2D vector line drawing and shape modeling for CNC and laser cutters.",
+      "icon": "",
+      "size": "N/A",
+      "version": "0.9.17",
+      "updatedDate": "2016-09-25",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "📐⚙ 2D vector line drawing and shape"
+        },
+        {
+          "title": "modeling for CNC and laser cutters."
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#arc #bezier #cad #circle"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/microsoft/maker.js",
+      "githubStars": 2020
+    },
+    {
+      "id": "tidgi-desktop",
+      "name": "TidGi Desktop",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "TidGi is an privacy-in-mind, automated, auto-git-backup, freely-deployed knowled",
+      "icon": "",
+      "size": "192MB",
+      "version": "0.14.2",
+      "updatedDate": "2026-08-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "TidGi is an privacy-in-mind"
+        },
+        {
+          "title": "automated, auto-git-backup, freely-deplo"
+        },
+        {
+          "title": "核心基于 TypeScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#all-in-one #anki #backlinks #electron"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/tiddly-gittly/TidGi-Desktop",
+      "githubStars": 1999
+    },
+    {
+      "id": "github",
+      "name": ".Github",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub ",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2025-10-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "这里是GitHub的草场，也是戈戈圈爱好者的交流地"
+        },
+        {
+          "title": "主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。T"
+        },
+        {
+          "title": "关键词标签：#a-soul #acfun #bilibili #china"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/gege-circle/.github",
+      "githubStars": 1986
+    },
+    {
+      "id": "argox",
+      "name": "ArgoX",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "ArgoX（Argo + Xray）—— 一键多协议脚本。基于 Xray 核心，支持 Reality、Hysteria2、VLESS、VMess、Trojan、",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "ArgoX（Argo + Xray）—— 一键多协议脚本"
+        },
+        {
+          "title": "基于 Xray 核心，支持 Reality、Hysteria2、VLESS、VM"
+        },
+        {
+          "title": "核心基于 Shell 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#argo #cdn #clash #cloudflare"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/fscarmen/ArgoX",
+      "githubStars": 1979
+    },
+    {
+      "id": "crow-translate",
+      "name": "Crow Translate",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "A simple and lightweight translator that allows you to translate and speak text ",
+      "icon": "",
+      "size": "17MB",
+      "version": "2.11.1",
+      "updatedDate": "2024-01-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A simple and lightweight translator"
+        },
+        {
+          "title": "that allows you to translate and speak t"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bing #dbus-api #google #libretranslate"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/crow-translate/crow-translate",
+      "githubStars": 1978
+    },
+    {
+      "id": "pegasus-frontend",
+      "name": "Pegasus Frontend",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A cross platform, customizable graphical frontend for launching emulators and ma",
+      "icon": "",
+      "size": "17MB",
+      "version": "weekly_2024w38",
+      "updatedDate": "2024-10-04",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A cross platform"
+        },
+        {
+          "title": "customizable graphical frontend for laun"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#cross-platform #customizable #emulator #frontend"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/mmatyas/pegasus-frontend",
+      "githubStars": 1880
+    },
+    {
+      "id": "media-kit",
+      "name": "Media Kit",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A cross-platform video player & audio player for Flutter & Dart.",
+      "icon": "",
+      "size": "N/A",
+      "version": "media_kit-v1.1.10",
+      "updatedDate": "2023-10-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A cross-platform video player & audi"
+        },
+        {
+          "title": "o player for Flutter & Dart."
+        },
+        {
+          "title": "核心基于 Dart 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #audio #audio-player #c"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/media-kit/media-kit",
+      "githubStars": 1798
+    },
+    {
+      "id": "slide",
+      "name": "Slide",
+      "platform": "android",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Slide is an open-source, ad-free Reddit browser for Android.",
+      "icon": "",
+      "size": "N/A",
+      "version": "6.7.1",
+      "updatedDate": "2021-06-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Slide is an open-source"
+        },
+        {
+          "title": "ad-free Reddit browser for Android."
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #app #browser #reddit"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Haptic-Apps/Slide",
+      "githubStars": 1771
+    },
+    {
+      "id": "markdownmonster",
+      "name": "MarkdownMonster",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "An extensible Markdown Editor, Viewer and Weblog Publisher for Windows",
+      "icon": "",
+      "size": "N/A",
+      "version": "4.4",
+      "updatedDate": "2026-05-30",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "An extensible Markdown Editor"
+        },
+        {
+          "title": "Viewer and Weblog Publisher for Windows"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#blog #csharp #documentation #markdown"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/RickStrahl/MarkdownMonster",
+      "githubStars": 1691
+    },
+    {
+      "id": "unicons",
+      "name": "Unicons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Discover Unicons, a free collection of beautifully crafted 7000+ SVG icons, 3D i",
+      "icon": "",
+      "size": "N/A",
+      "version": "4.2.0",
+      "updatedDate": "2024-12-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Discover Unicons"
+        },
+        {
+          "title": "a free collection of beautifully crafted"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#css #font #fonticons #icons"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Iconscout/unicons",
+      "githubStars": 1518
+    },
+    {
+      "id": "xicons",
+      "name": "Xicons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "SVG Vue/React components integrated from fluentui-system-icons, ionicons, ant-de",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2025-11-15",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "SVG Vue/React components integrated"
+        },
+        {
+          "title": "from fluentui-system-icons, ionicons, an"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#icons #react #vue"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/07akioni/xicons",
+      "githubStars": 1490
+    },
+    {
+      "id": "mpv-easy-player",
+      "name": "MPV EASY Player",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "MPV-EASY Player - An easy to use, modern video player based on mpv （一个基于MPV,易于使用",
+      "icon": "",
+      "size": "66MB",
+      "version": "0.41.0.5",
+      "updatedDate": "2026-07-04",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "MPV-EASY Player - An easy to use"
+        },
+        {
+          "title": "modern video player based on mpv （一个基于MP"
+        },
+        {
+          "title": "核心基于 Lua 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio-player #ffmpeg #javascript #linux"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/422658476/MPV-EASY-Player",
+      "githubStars": 1424
+    },
+    {
+      "id": "orchard",
+      "name": "Orchard",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A GUI for Apple Containers, (o)MLX and k8s, written in swift as a replacement fo",
+      "icon": "",
+      "size": "28MB",
+      "version": "2.2.2",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A GUI for Apple Containers"
+        },
+        {
+          "title": "(o)MLX and k8s, written in swift as a re"
+        },
+        {
+          "title": "核心基于 Swift 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#apple #containerization #containers #gui"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/andrew-waters/orchard",
+      "githubStars": 1415
+    },
+    {
+      "id": "instaeclipse",
+      "name": "InstaEclipse",
+      "platform": "android",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "An Instagram Xposed module with features like Developer Options, Ghost Mode, Ad-",
+      "icon": "",
+      "size": "13MB",
+      "version": "0.6.0",
+      "updatedDate": "2026-07-07",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "An Instagram Xposed module with feat"
+        },
+        {
+          "title": "ures like Developer Options, Ghost Mode,"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #ghost-mode #instagram #lsposed"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ReSo7200/InstaEclipse",
+      "githubStars": 1412
+    },
+    {
+      "id": "mangodisk",
+      "name": "MangoDisk",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Safety-first disk cleaner and disk space analyzer for macOS and Windows, with du",
+      "icon": "",
+      "size": "22MB",
+      "version": "1.0.6",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Safety-first disk cleaner and disk s"
+        },
+        {
+          "title": "pace analyzer for macOS and Windows, wit"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#app-uninstaller #cache-cleaner #cross-platform #desktop-app"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/harry0703/MangoDisk",
+      "githubStars": 1376
+    },
+    {
+      "id": "waveboxapp",
+      "name": "Waveboxapp",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Wavebox, the revolutionary and feature-rich Chromium browser that's built for pr",
+      "icon": "",
+      "size": "N/A",
+      "version": "151.2.154-stable",
+      "updatedDate": "2026-08-11",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Wavebox"
+        },
+        {
+          "title": "the revolutionary and feature-rich Chrom"
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#cross-platform #desktop #email #gmail"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/wavebox/waveboxapp",
+      "githubStars": 1374
+    },
+    {
+      "id": "fork-awesome",
+      "name": "Fork Awesome",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "Deprecated: A fork of the iconic font and CSS toolkit",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2025-11-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Deprecated: A fork of the iconic fon"
+        },
+        {
+          "title": "t and CSS toolkit"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#bootstrap #brands #font-awesome #fork"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ForkAwesome/Fork-Awesome",
+      "githubStars": 1350
+    },
+    {
+      "id": "cef4delphi",
+      "name": "CEF4Delphi",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "CEF4Delphi is an open source project to embed Chromium-based browsers in applica",
+      "icon": "",
+      "size": "N/A",
+      "version": "150.0.7871.129",
+      "updatedDate": "2026-07-28",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "CEF4Delphi is an open source project"
+        },
+        {
+          "title": "to embed Chromium-based browsers in appl"
+        },
+        {
+          "title": "核心基于 Pascal 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#blink #browser #cef #chromium"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/salvadordf/CEF4Delphi",
+      "githubStars": 1332
+    },
+    {
+      "id": "webtools-bundle",
+      "name": "WebTools.Bundle",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "WebTools is a collection of tools for Plex Media Server. Like the Unsupported Ap",
+      "icon": "",
+      "size": "6MB",
+      "version": "3.0.0",
+      "updatedDate": "2017-12-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "WebTools is a collection of tools fo"
+        },
+        {
+          "title": "r Plex Media Server. Like the Unsupporte"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#4plex #find #logs #playlists"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ukdtom/WebTools.bundle",
+      "githubStars": 1310
+    },
+    {
+      "id": "x-ui-pro",
+      "name": "X Ui Pro",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "XUI-PRO nginx reverse proxy with ws/grpc/httpupgrade/splithttp,xray protocol sup",
+      "icon": "",
+      "size": "N/A",
+      "version": "13.2.0",
+      "updatedDate": "2026-05-10",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "XUI-PRO nginx reverse proxy with ws/"
+        },
+        {
+          "title": "grpc/httpupgrade/splithttp,xray protocol"
+        },
+        {
+          "title": "核心基于 Shell 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#argosbx #bypass #cloudflare #great-firewall"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/GFW4Fun/x-ui-pro",
+      "githubStars": 1303
+    },
+    {
+      "id": "dory",
+      "name": "Dory",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A free, open-source native macOS app for Docker & Linux containers, an alternati",
+      "icon": "",
+      "size": "742MB",
+      "version": "0.4.5",
+      "updatedDate": "2026-08-12",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A free"
+        },
+        {
+          "title": "open-source native macOS app for Docker"
+        },
+        {
+          "title": "核心基于 Swift 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#apple-silicon #containers #docker #docker-desktop"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Augani/dory",
+      "githubStars": 1298
+    },
+    {
+      "id": "docutranslate",
+      "name": "Docutranslate",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "文档（小说、论文、字幕）翻译工具（支持 pdf/word/excel/json/epub/srt...）Document (Novel, Thesis, Sub",
+      "icon": "",
+      "size": "44MB",
+      "version": "1.7.8",
+      "updatedDate": "2026-07-09",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "文档（小说、论文、字幕）翻译工具（支持 pdf/word/excel/j"
+        },
+        {
+          "title": "son/epub/srt...）Document (Novel, Thesis,"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#file-transla #llm #pdf-converter #pdf-translator"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/xunbu/docutranslate",
+      "githubStars": 1279
+    },
+    {
+      "id": "v2rayxs",
+      "name": "V2RayXS",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "V2RayXS 是一款Windows端优秀开源软件。",
+      "icon": "",
+      "size": "22MB",
+      "version": "1.6.3",
+      "updatedDate": "2026-06-01",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "GUI for xray-core on macOS"
+        },
+        {
+          "title": "核心基于 Objective-C 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#macos #objective-c #proxy #shadowsocks"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/tzmax/V2RayXS",
+      "githubStars": 1255
+    },
+    {
+      "id": "autohotkey-v1-0",
+      "name": "AutoHotkey V1.0",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "AutoHotkey is a powerful and easy to use scripting language for desktop automati",
+      "icon": "",
+      "size": "2MB",
+      "version": "1.0.48.05",
+      "updatedDate": "2014-05-11",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "AutoHotkey is a powerful and easy to"
+        },
+        {
+          "title": "use scripting language for desktop autom"
+        },
+        {
+          "title": "核心基于 C++ 开发，跨平台易扩展"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/AutoHotkey/AutoHotkey-v1.0",
+      "githubStars": 1249
+    },
+    {
+      "id": "the-40-best-vpns",
+      "name": "The 40 Best VPNs",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "2026年稳定高速VPN推荐：40款性价比翻墙梯子完全指南，每周核查跑路与价格。翻墙梯子/科学上网/机场测评，解锁 YouTube、Netflix、TikTok",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-07-31",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "2026年稳定高速VPN推荐：40款性价比翻墙梯子完全指南"
+        },
+        {
+          "title": "每周核查跑路与价格。翻墙梯子/科学上网/机场测评，解锁 YouTube、Netf"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#chatgpt #clash #hysteria #netflix"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/John19187/The-40-Best-VPNs",
+      "githubStars": 1227
+    },
+    {
+      "id": "shoes",
+      "name": "Shoes",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "A multi-protocol proxy server written in Rust (HTTP, SOCKS5, Vmess, Vless, Shado",
+      "icon": "",
+      "size": "N/A",
+      "version": "0.2.7",
+      "updatedDate": "2026-01-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A multi-protocol proxy server writte"
+        },
+        {
+          "title": "n in Rust (HTTP, SOCKS5, Vmess, Vless, S"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#anytls #hysteria2 #naiveproxy #proxy"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/cfal/shoes",
+      "githubStars": 1208
+    },
+    {
+      "id": "shahanpanel",
+      "name": "ShahanPanel",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "Shahan Vpn Panel With Add/Delete Users - Online Users - Limit Users",
+      "icon": "",
+      "size": "5MB",
+      "version": "10.3.1",
+      "updatedDate": "2026-06-01",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Shahan Vpn Panel With Add/Delete Use"
+        },
+        {
+          "title": "rs - Online Users - Limit Users"
+        },
+        {
+          "title": "核心基于 PHP 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#cisco-anyconnect #dropbear #hysteria2 #napsternetv"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/HamedAp/ShahanPanel",
+      "githubStars": 1204
+    },
+    {
+      "id": "video-subtitle-generator",
+      "name": "Video Subtitle Generator",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "视频音频生成字幕，生成srt文件。无需申请第���方API，本地实现音频转文本。基于Transformer的视频字幕生成框架。A GUI tool for ge",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2024-01-31",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "视频音频生成字幕，生成srt文件。无需申请第���方API"
+        },
+        {
+          "title": "本地实现音频转文本。基于Transformer的视频字幕生成框架。A GUI t"
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio2text #generation #srt #subtitle"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/YaoFANGUK/video-subtitle-generator",
+      "githubStars": 1174
+    },
+    {
+      "id": "jichangtizi-tuijian",
+      "name": "Jichangtizi Tuijian",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "2026 机场梯子推荐与测评：Clash / V2Ray / SSR 稳定机场、便宜机场、IEPL/IPLC 专线、优惠码与晚高峰测速。",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2026-08-23",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "2026 机场梯子推荐与测评：Clash / V2Ray / SSR 稳"
+        },
+        {
+          "title": "定机场、便宜机场、IEPL/IPLC 专线、优惠码与晚高峰测速。"
+        },
+        {
+          "title": "关键词标签：#airport-recommendation #anytls #clash #proxy"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Abao130/jichangtizi-tuijian",
+      "githubStars": 1172
+    },
+    {
+      "id": "episteme",
+      "name": "Episteme",
+      "platform": "android",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A multi-platform document and e-book reader.",
+      "icon": "",
+      "size": "40MB",
+      "version": "1.0.53-oss",
+      "updatedDate": "2026-08-12",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A multi-platform document and e-book"
+        },
+        {
+          "title": "reader."
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android #ebook #epub #foss"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Aryan-Raj3112/episteme",
+      "githubStars": 1155
+    },
+    {
+      "id": "autosubsync",
+      "name": "AutoSubSync",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "Automatic subtitle synchronization tool.",
+      "icon": "",
+      "size": "170MB",
+      "version": "6.5",
+      "updatedDate": "2026-08-16",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Automatic subtitle synchronization tool."
+        },
+        {
+          "title": "核心基于 Python 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#automatic-subtitle #caption #captions #ffmpeg"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/denizsafak/AutoSubSync",
+      "githubStars": 1151
+    },
+    {
+      "id": "repeat",
+      "name": "Repeat",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "Cross-platform mouse/keyboard record/replay and automation hotkeys/macros creati",
+      "icon": "",
+      "size": "10MB",
+      "version": "5.7",
+      "updatedDate": "2022-11-25",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Cross-platform mouse/keyboard record"
+        },
+        {
+          "title": "/replay and automation hotkeys/macros cr"
+        },
+        {
+          "title": "核心基于 Java 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#autohotkey #automation #automation-framework #csharp"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/repeats/Repeat",
+      "githubStars": 1105
+    },
+    {
+      "id": "wnr",
+      "name": "Wnr",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "⏱️ Work/Rest Timer. Stricter. Prettier. More features. Win/Mac/Linux.",
+      "icon": "",
+      "size": "70MB",
+      "version": "1.34.0",
+      "updatedDate": "2026-08-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "⏱️ Work/Rest Timer. Stricter"
+        },
+        {
+          "title": "Prettier. More features. Win/Mac/Linux."
+        },
+        {
+          "title": "核心基于 JavaScript 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#electron #electron-app #floss #linux"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/RoderickQiu/wnr",
+      "githubStars": 1093
+    },
+    {
+      "id": "map-icons",
+      "name": "Map Icons",
+      "platform": "windows",
+      "category": "design",
+      "categoryName": "设计创意",
+      "description": "An icon font for use with Google Maps API and Google Places API using SVG marker",
+      "icon": "",
+      "size": "N/A",
+      "version": "3.0.0",
+      "updatedDate": "2015-10-06",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "An icon font for use with Google Map"
+        },
+        {
+          "title": "s API and Google Places API using SVG ma"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "Windows 原生安装包，一键安装开箱即用"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/scottdejonge/map-icons",
+      "githubStars": 1041
+    },
+    {
+      "id": "pip-tool",
+      "name": "PiP Tool",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "PiP tool is a software to use the Picture in Picture mode on Windows. This featu",
+      "icon": "",
+      "size": "5MB",
+      "version": "1.1.2",
+      "updatedDate": "2019-03-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "PiP tool is a software to use the Pi"
+        },
+        {
+          "title": "cture in Picture mode on Windows. This f"
+        },
+        {
+          "title": "核心基于 C# 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#c-sharp #dotnet #machine-learning #microsoft"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/LionelJouin/PiP-Tool",
+      "githubStars": 1038
     },
     {
       "id": "ECHO Next",
@@ -401,6 +3971,66 @@
       "downloadSources": [],
       "githubUrl": "https://github.com/Moekotori/ECHO",
       "githubStars": 1020
+    },
+    {
+      "id": "cocoa-way",
+      "name": "Cocoa Way",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "Run Linux desktops and apps on macOS with a native Metal Wayland compositor, App",
+      "icon": "",
+      "size": "7MB",
+      "version": "2.0.2",
+      "updatedDate": "2026-07-17",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "Run Linux desktops and apps on macOS"
+        },
+        {
+          "title": "with a native Metal Wayland compositor,"
+        },
+        {
+          "title": "核心基于 Rust 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#apple-container #apple-container-gui #apple-silicon #container-gui"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/J-x-Z/cocoa-way",
+      "githubStars": 1012
+    },
+    {
+      "id": "georgia-reborn",
+      "name": "Georgia ReBORN",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "A Clean · Full Dynamic Color Reborn · Foobar2000 player",
+      "icon": "",
+      "size": "79MB",
+      "version": "3.0-RC3",
+      "updatedDate": "2025-05-28",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A Clean · Full Dynamic Color Reborn"
+        },
+        {
+          "title": "· Foobar2000 player"
+        },
+        {
+          "title": "核心基于 HTML 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#audio #audio-player #audioplayer #clean"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/TT-ReBORN/Georgia-ReBORN",
+      "githubStars": 1006
     },
     {
       "id": " Now Playing",
@@ -430,7 +4060,7 @@
       "githubStars": 821
     }
   ],
-  "syncedAt": "2026-08-25T12:22:18.781Z",
+  "syncedAt": "2026-08-25T12:32:28.048Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
