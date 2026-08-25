@@ -57,9 +57,73 @@
       ],
       "githubUrl": "https://github.com/XxHuberrr/Mineradio",
       "githubStars": 10230
+    },
+    {
+      "id": "ECHO Next",
+      "name": "ECHO Next",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "ECHO是功能最全面的音乐播放器",
+      "icon": "",
+      "size": "253MB",
+      "version": "26.8.2",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Moekotori/ECHO",
+      "githubStars": 1020
+    },
+    {
+      "id": " Now Playing",
+      "name": " Now Playing",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "一款全能的「正在播放」歌曲展示工具。支持检测 20+ 款音乐软件的歌曲信息，内置精美歌曲组件、歌词组件、播放器，提供 API 接口。适配 OBS 等直播软件以及日常桌面使用",
+      "icon": "assets/icons/ Now Playing.jpg",
+      "size": "78MB",
+      "version": "2.1.5",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "image": "assets/features/ Now Playing_1.png"
+        },
+        {
+          "image": "assets/features/ Now Playing_2.jpg"
+        },
+        {
+          "image": "assets/features/ Now Playing_3.jpg"
+        },
+        {
+          "image": "assets/features/ Now Playing_4.jpg"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Widdit/now-playing-service",
+      "githubStars": 821
+    },
+    {
+      "id": "recvtjf8aPrLMl",
+      "name": "",
+      "platform": "",
+      "category": "",
+      "categoryName": "",
+      "description": "",
+      "icon": "",
+      "size": "",
+      "version": "",
+      "updatedDate": "",
+      "popularity": 0,
+      "features": [],
+      "downloadSources": [],
+      "githubUrl": "",
+      "githubStars": 0
     }
   ],
-  "syncedAt": "2026-08-25T11:53:08.391Z",
+  "syncedAt": "2026-08-25T12:09:44.746Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
