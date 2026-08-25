@@ -1,6 +1,333 @@
 {
   "apps": [
     {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "微软出品的轻量级代码编辑器，支持几乎所有主流编程语言，内置 Git 与丰富的扩展生态。",
+      "icon": "",
+      "size": "100MB",
+      "version": "1.134.0",
+      "updatedDate": "2026-08-18",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "跨平台代码编辑与智能补全"
+        },
+        {
+          "title": "内置 Git 版本控制与终端"
+        },
+        {
+          "title": "丰富扩展生态，几乎支持所有语言"
+        },
+        {
+          "title": "调试器与远程开发（SSH/容器/WSL）"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/microsoft/vscode",
+      "githubStars": 189585
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "微软官方 Windows 效率工具箱，包含 FancyZones、PowerRename、文本提取器、快捷键管理等 20+ 实用小工具。",
+      "icon": "",
+      "size": "283MB",
+      "version": "0.101.2362.0",
+      "updatedDate": "2026-08-24",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "FancyZones 自定义分区贴靠"
+        },
+        {
+          "title": "PowerRename 批量正则重命名"
+        },
+        {
+          "title": "Text Extractor OCR 文字提取"
+        },
+        {
+          "title": "Always On Top 窗口置顶/唤醒锁定"
+        },
+        {
+          "title": "快捷键管理器、颜色选择器、图像缩放器"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/microsoft/PowerToys",
+      "githubStars": 138085
+    },
+    {
+      "id": "rustdesk",
+      "name": "RustDesk",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "用 Rust 编写的开源远程桌面工具，自建服务器、端到端加密、穿透内网，是 TeamViewer 和 AnyDesk 的完全替代方案。",
+      "icon": "",
+      "size": "24MB",
+      "version": "1.4.9",
+      "updatedDate": "2026-07-05",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "端到端加密（自建信号服务器）"
+        },
+        {
+          "title": "文件传输 + 剪贴板共享"
+        },
+        {
+          "title": "手机/PC 多平台互相连接"
+        },
+        {
+          "title": "无广告无后台收集，完全开源"
+        },
+        {
+          "title": "TCP 打洞与多线路支持弱网连接"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/rustdesk/rustdesk",
+      "githubStars": 121768
+    },
+    {
+      "id": "windows-terminal",
+      "name": "Windows Terminal",
+      "platform": "windows",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "微软新一代 Windows 命令行终端，支持多标签、GPU 加速文本渲染、自定义主题和表情符号，统一承载 PowerShell/CMD/WSL。",
+      "icon": "",
+      "size": "39MB",
+      "version": "1.24.11911.0",
+      "updatedDate": "2026-07-15",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "多标签页 + 多窗格终端"
+        },
+        {
+          "title": "GPU 加速 DirectWrite 渲染引擎"
+        },
+        {
+          "title": "完整 Unicode 与 Emoji 支持"
+        },
+        {
+          "title": "高度可定制主题/背景/字体"
+        },
+        {
+          "title": "原生支持 WSL、SSH、CMD、PowerShell"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/microsoft/terminal",
+      "githubStars": 104692
+    },
+    {
+      "id": "localsend",
+      "name": "LocalSend",
+      "platform": "windows",
+      "category": "network",
+      "categoryName": "网络通讯",
+      "description": "基于局域网零配置的跨平台文件传输工具，无需联网、无需登录，自动发现附近设备，手机/电脑互相传文件和剪贴板。",
+      "icon": "",
+      "size": "25MB",
+      "version": "1.18.2",
+      "updatedDate": "2026-08-20",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "局域网零配置自动发现"
+        },
+        {
+          "title": "端到端加密传输"
+        },
+        {
+          "title": "支持整文件夹和大量文件传输"
+        },
+        {
+          "title": "剪贴板文本互传与二维码配对"
+        },
+        {
+          "title": "移动端自动下载到相册/下载目录"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/localsend/localsend",
+      "githubStars": 89323
+    },
+    {
+      "id": "traffic-monitor",
+      "name": "TrafficMonitor",
+      "platform": "windows",
+      "category": "system",
+      "categoryName": "系统工具",
+      "description": "国产 Windows 悬浮窗网速监控工具，支持多网卡实时流量/CPU/内存/温度/GPU 占用显示，任务栏嵌入皮肤化，还支持硬件状态历史。",
+      "icon": "",
+      "size": "1MB",
+      "version": "1.86",
+      "updatedDate": "2026-03-28",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "悬浮窗显示实时上传/下载速度"
+        },
+        {
+          "title": "CPU/内存/GPU/温度多硬件监控"
+        },
+        {
+          "title": "任务栏嵌入图标模式"
+        },
+        {
+          "title": "流量统计日报/月报与超限告警"
+        },
+        {
+          "title": "自定义皮肤、多网卡自动切换"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/zhongyang219/TrafficMonitor",
+      "githubStars": 45866
+    },
+    {
+      "id": "sharex",
+      "name": "ShareX",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "Windows 最强大的免费截图和录屏工具，支持全屏幕/区域/滚动页/长截图/录屏/GIF 动画，并自动上传到 40+ 种图床。",
+      "icon": "",
+      "size": "199MB",
+      "version": "21.0.0",
+      "updatedDate": "2026-07-02",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "全区域、活动窗口、滚动长截图"
+        },
+        {
+          "title": "录屏 MP4 / WebM / GIF 动画"
+        },
+        {
+          "title": "OCR 识别 + 颜色拾取"
+        },
+        {
+          "title": "自定义工作流（水印→压缩→上传）"
+        },
+        {
+          "title": "内置 40+ 图床、网盘和自建对象存储"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ShareX/ShareX",
+      "githubStars": 39293
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "经典开源视频转码器，支持几乎所有输入格式，可一键压片到 H.264/H.265/AV1，压缩 DVD/蓝光、批量编码、硬解硬编加速。",
+      "icon": "",
+      "size": "33MB",
+      "version": "1.11.2",
+      "updatedDate": "2026-06-06",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "H.264/H.265/AV1 三种主流编码器"
+        },
+        {
+          "title": "NVENC/QSV/VCE 显卡硬件加速"
+        },
+        {
+          "title": "DVD / 蓝光 ISO 源直接解析"
+        },
+        {
+          "title": "字幕、章节、音轨混合压制"
+        },
+        {
+          "title": "队列批量处理 + 预设导出分享"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/HandBrake/HandBrake",
+      "githubStars": 24158
+    },
+    {
+      "id": "maa",
+      "name": "MAA 明日方舟助手",
+      "platform": "windows",
+      "category": "entertainment",
+      "categoryName": "影音娱乐",
+      "description": "明日方舟开源 CLI/GUI 自动化工具，支持自动刷理智、基建换班、公招识别、生息演算、肉鸽等，覆盖绝大多数日常操作。",
+      "icon": "",
+      "size": "255MB",
+      "version": "6.16.8",
+      "updatedDate": "2026-08-10",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "自动战斗与理智消耗"
+        },
+        {
+          "title": "基建自动换班、线索、制造、贸易"
+        },
+        {
+          "title": "公开招募 OCR 智能识别"
+        },
+        {
+          "title": "集成肉鸽与生息演算自动通关"
+        },
+        {
+          "title": "插件机制支持第三方自定义任务"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
+      "githubStars": 22771
+    },
+    {
+      "id": "flow-launcher",
+      "name": "Flow Launcher",
+      "platform": "windows",
+      "category": "office",
+      "categoryName": "办公效率",
+      "description": "Windows 快速启动与文件搜索利器，Alt+Space 呼出搜索框，支持启动程序、查找文件、执行命令、调用 Web 搜索与 100+ 插件扩展。",
+      "icon": "",
+      "size": "196MB",
+      "version": "2.1.3",
+      "updatedDate": "2026-06-07",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "毫秒级程序与文件搜索"
+        },
+        {
+          "title": "Calculator、Shell、Web 搜索插件"
+        },
+        {
+          "title": "Python / C# 插件 SDK 自定义"
+        },
+        {
+          "title": "Everything 引擎支持千万级文件索引"
+        },
+        {
+          "title": "主题与图标多套可定制"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/Flow-Launcher/Flow.Launcher",
+      "githubStars": 15429
+    },
+    {
       "id": "Mineradio",
       "name": "Mineradio",
       "platform": "windows",
@@ -96,34 +423,14 @@
         },
         {
           "image": "assets/features/ Now Playing_3.jpg"
-        },
-        {
-          "image": "assets/features/ Now Playing_4.jpg"
         }
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Widdit/now-playing-service",
       "githubStars": 821
-    },
-    {
-      "id": "recvtjf8aPrLMl",
-      "name": "",
-      "platform": "",
-      "category": "",
-      "categoryName": "",
-      "description": "",
-      "icon": "",
-      "size": "",
-      "version": "",
-      "updatedDate": "",
-      "popularity": 0,
-      "features": [],
-      "downloadSources": [],
-      "githubUrl": "",
-      "githubStars": 0
     }
   ],
-  "syncedAt": "2026-08-25T12:09:44.746Z",
+  "syncedAt": "2026-08-25T12:22:18.781Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
