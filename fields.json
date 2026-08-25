@@ -12,7 +12,8 @@
   {"type":"text","name":"大小","description":"安装包大小，如 85MB"},
   {"type":"text","name":"版本","description":"当前收录版本号，如 1.92.0"},
   {"type":"datetime","name":"更新日期","style":{"format":"yyyy-MM-dd"},"description":"Release 或镜像更新时间"},
-  {"type":"text","name":"特性列表","description":"详情页轮播/亮点，每行一条（换行分隔）"},
+  {"type":"text","name":"特性列表","description":"详情页轮播/亮点，每行一条（换行分隔）；可与「特性图片」附件按顺序一一对应展示"},
+  {"type":"attachment","name":"特性图片","description":"应用功能介绍/截图图片（支持 PNG/JPG 多图），按顺序对应「特性列表」每一行；同步脚本下载到 assets/features/{应用ID}_{序号}.{ext} 渲染"},
   {"type":"text","name":"下载源JSON","description":"国内网盘镜像 JSON 数组，见 README；用户通过弹窗选择下载"},
   {"type":"number","name":"热度","style":{"type":"plain","precision":0},"description":"可选，兼容旧数据；前台排序已改用 GitHub Star数，可不填"}
 ]

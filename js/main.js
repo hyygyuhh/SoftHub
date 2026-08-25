@@ -1156,6 +1156,45 @@
         if (isHomeView()) startFeaturedAutoplay();
     }
 
+    /**
+     * Render a feature preview image tag, or fall back to the app icon SVG
+     * when no feature-specific image is provided.
+     */
+    function featureImageHtml(app, item, themeAccent) {
+        if (item && item.image) {
+            const src = escapeAttr(item.image);
+            const alt = escapeAttr((item && item.title) || (app && app.name) || '') + ' 截图';
+            return '<img class="store-carousel-img" src="' + src + '" alt="' + alt +
+                '" loading="lazy" decoding="async" onerror="this.classList.add(\'app-icon-img-broken\')">';
+        }
+        // Legacy fallback for items without an image: show the app icon inside a card mock.
+        return '<div class="store-carousel-mock">' + iconHtml(app) + '</div>';
+    }
+
+    /**
+     * Normalize app.features into a consistent [{title?, image?}, ...] array.
+     * Accepts either:
+     *   - new shape: [{title, image?}] (from latest sync)
+     *   - legacy shape: [string, string, ...] (old apps-data.js / pre-migration)
+     *   - empty / missing (falls back to description)
+     */
+    function normalizeFeatures(app) {
+        if (!app) return [];
+        let features = app.features;
+        if (!Array.isArray(features) || features.length === 0) {
+            return app.description ? [{ title: app.description }] : [];
+        }
+        // Detect legacy plain-string array.
+        if (typeof features[0] === 'string') {
+            return features.map(f => ({ title: String(f) }));
+        }
+        // Already an array of feature objects.
+        return features.slice(0, 5).map(f => ({
+            title: f && f.title ? String(f.title) : '',
+            image: f && f.image ? String(f.image) : ''
+        }));
+    }
+
     function renderDetailCarousel(app) {
         const themes = [
             { bg: 'store-theme-pink', accent: '#ec4899' },
@@ -1164,23 +1203,25 @@
             { bg: 'store-theme-purple', accent: '#8b5cf6' },
             { bg: 'store-theme-orange', accent: '#f97316' }
         ];
-        const items = (app.features && app.features.length ? app.features : [app.description]).slice(0, 5);
+        const items = normalizeFeatures(app);
 
         return `
             <div class="store-carousel-section">
                 <div class="store-carousel" id="detailCarousel">
-                    ${items.map((feature, i) => {
+                    ${items.map((item, i) => {
                         const theme = themes[i % themes.length];
+                        const title = item.title || app.description || '';
                         return `
                         <article class="store-carousel-card ${theme.bg}">
                             <div class="store-carousel-card-inner">
+                                <div class="store-carousel-preview store-carousel-preview--top">
+                                    ${featureImageHtml(app, item, theme.accent)}
+                                </div>
+                                ${title ? `
                                 <h4 class="store-carousel-title">
                                     <span class="store-carousel-bar" style="background:${theme.accent}"></span>
-                                    ${escapeHtml(feature)}
-                                </h4>
-                                <div class="store-carousel-preview">
-                                    <div class="store-carousel-mock">${iconHtml(app)}</div>
-                                </div>
+                                    ${escapeHtml(title)}
+                                </h4>` : ''}
                             </div>
                         </article>`;
                     }).join('')}
@@ -1225,21 +1266,23 @@
                     </div>
                     <div class="store-hero-action">
                         <span class="store-hero-size">${escapeHtml(app.size)}</span>
-                        <button class="store-install-btn" id="detailDownloadBtn" type="button">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                            下载
-                        </button>
-                        <button class="store-share-btn" id="detailShareBtn" type="button" aria-label="分享应用链接">
-                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </button>
+                        <div class="store-hero-action-row">
+                            <button class="store-install-btn" id="detailDownloadBtn" type="button">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                下载
+                            </button>
+                            <button class="store-share-btn" id="detailShareBtn" type="button" aria-label="分享应用链接">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </header>
 

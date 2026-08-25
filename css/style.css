@@ -1939,14 +1939,23 @@ ul, ol {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: var(--space-3);
+    gap: var(--space-2);
     flex-shrink: 0;
+}
+
+/* Horizontal row that holds the "下载" primary CTA + the "分享" secondary action
+   right next to it, so the share button is no longer stacked below the CTA. */
+.store-hero-action-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
 }
 
 .store-hero-size {
     font-size: var(--font-size-sm);
     color: var(--c-text-tertiary);
     font-weight: var(--font-weight-medium);
+    margin-right: var(--space-1);
 }
 
 .store-install-btn {
@@ -2057,9 +2066,10 @@ ul, ol {
 
 .store-carousel-card-inner {
     padding: var(--space-5);
-    min-height: 200px;
+    min-height: 260px;
     display: flex;
     flex-direction: column;
+    gap: var(--space-3);
 }
 
 .store-theme-pink .store-carousel-card-inner {
@@ -2100,8 +2110,9 @@ ul, ol {
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-semibold);
     color: var(--c-text);
-    margin-bottom: var(--space-4);
+    margin: 0;
     line-height: 1.4;
+    order: 2;
 }
 
 .store-carousel-bar {
@@ -2114,8 +2125,21 @@ ul, ol {
 .store-carousel-preview {
     flex: 1;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    min-height: 0;
+    order: 1;
+}
+
+/* Preview on top for the re-ordered card: image takes most of the card height. */
+.store-carousel-preview--top {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    margin: 0;
+    background: var(--c-bg-elevated);
+    border-radius: var(--r-md);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
 }
 
 .store-carousel-mock {
@@ -2136,6 +2160,20 @@ ul, ol {
     height: 40px;
     color: var(--c-accent);
     opacity: 0.8;
+}
+
+/* A real feature screenshot rendered on the carousel surface. */
+.store-carousel-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.store-carousel-img.app-icon-img-broken {
+    opacity: 0.35;
 }
 
 /* Sections */
@@ -2805,21 +2843,74 @@ ul, ol {
         grid-template-columns: 1fr;
         text-align: center;
         justify-items: center;
+        row-gap: var(--space-4);
+    }
+
+    .store-hero-icon {
+        width: 72px !important;
+        height: 72px !important;
+    }
+
+    .store-hero-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .store-hero-title-row {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-1) !important;
+    }
+
+    .store-hero-tagline {
+        text-align: center;
+    }
+
+    .store-hero-badges {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .store-hero-action {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
+        gap: var(--space-2);
+    }
+
+    .store-hero-action-row {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .store-install-btn {
+        flex: 1;
+        min-width: 0;
     }
 
     .store-info-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-3);
     }
 
     .store-carousel-btn {
         display: none;
+    }
+
+    .store-carousel-card {
+        flex-basis: min(320px, 90vw);
+    }
+
+    .store-carousel-card-inner {
+        padding: var(--space-4);
+        min-height: 240px;
+    }
+
+    .store-carousel-preview--top {
+        aspect-ratio: 16 / 10;
     }
 
     .download-source-item {
@@ -2833,10 +2924,6 @@ ul, ol {
 
     .store-hero-name {
         font-size: var(--font-size-2xl);
-    }
-
-    .store-info-grid {
-        grid-template-columns: 1fr 1fr;
     }
 
     .about-stats {
@@ -2883,7 +2970,8 @@ ul, ol {
     }
 
     .app-list-icon,
-    .app-list-icon svg {
+    .app-list-icon svg,
+    .app-list-icon img {
         width: 40px;
         height: 40px;
     }
@@ -2895,6 +2983,33 @@ ul, ol {
     .modal-content {
         padding: var(--space-6);
         border-radius: var(--r-xl);
+    }
+
+    .store-hero-icon {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .store-install-btn {
+        padding: 10px 18px !important;
+        min-width: 0;
+    }
+
+    .store-carousel-card {
+        flex-basis: 92vw;
+    }
+
+    .store-carousel-card-inner {
+        padding: var(--space-3);
+        min-height: 220px;
+    }
+
+    .store-carousel-title {
+        font-size: var(--font-size-sm);
+    }
+
+    .store-info-grid {
+        grid-template-columns: 1fr;
     }
 }
 

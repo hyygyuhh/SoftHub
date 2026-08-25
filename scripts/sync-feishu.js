@@ -157,7 +157,7 @@ async function downloadAttachment(token, fileToken, recordId, fieldId, savePath)
 }
 
 /** Convert a Feishu record's fields into the front-end app object shape. */
-async function recordToApp(fields, recordId, iconFieldId, token) {
+async function recordToApp(fields, recordId, iconFieldId, featureImagesFieldId, token) {
     const downloadSourcesRaw = fields['下载源JSON'] || '[]';
     let downloadSources = [];
     try {
@@ -170,9 +170,9 @@ async function recordToApp(fields, recordId, iconFieldId, token) {
 
     // Icon: prefer "图标" attachment; fall back to "图标SVG" text field.
     let icon = fields['图标SVG'] || '';
-    const attachments = fields['图标'];
-    if (Array.isArray(attachments) && attachments.length > 0 && recordId && iconFieldId && token) {
-        const att = attachments[0] || {};
+    const iconAttachments = fields['图标'];
+    if (Array.isArray(iconAttachments) && iconAttachments.length > 0 && recordId && iconFieldId && token) {
+        const att = iconAttachments[0] || {};
         const ext = extFromMime(att.type);
         const savePath = path.resolve(process.cwd(), 'assets', 'icons', `${appId}.${ext}`);
         try {
@@ -181,6 +181,35 @@ async function recordToApp(fields, recordId, iconFieldId, token) {
             console.log(`  icon: ${appId} -> ${icon} (${size} bytes)`);
         } catch (e) {
             console.warn(`  icon download failed for ${appId}: ${e.message}`);
+        }
+    }
+
+    // Feature titles from the "特性列表" text field (one per line).
+    const featureTitles = featuresRaw ? featuresRaw.split('\n').map(s => s.trim()).filter(Boolean) : [];
+
+    // Feature images from the "特性图片" attachment field. We download every
+    // attachment to assets/features/{appId}_{1..N}.{ext} in original order,
+    // so index N corresponds to title index N-1 (paired by the front-end).
+    const features = featureTitles.map(title => ({ title }));
+    const featureAtts = fields['特性图片'];
+    if (Array.isArray(featureAtts) && featureAtts.length > 0 && recordId && featureImagesFieldId && token) {
+        for (let i = 0; i < featureAtts.length; i++) {
+            const att = featureAtts[i] || {};
+            const ext = extFromMime(att.type);
+            const savePath = path.resolve(process.cwd(), 'assets', 'features', `${appId}_${i + 1}.${ext}`);
+            try {
+                const size = await downloadAttachment(token, att.file_token, recordId, featureImagesFieldId, savePath);
+                const rel = `assets/features/${appId}_${i + 1}.${ext}`;
+                // If there is a matching title slot, attach image to that entry.
+                if (i < features.length) {
+                    features[i].image = rel;
+                } else {
+                    features.push({ image: rel });
+                }
+                console.log(`  feature image: ${appId}[${i + 1}] -> ${rel} (${size} bytes)`);
+            } catch (e) {
+                console.warn(`  feature image [${i + 1}] download failed for ${appId}: ${e.message}`);
+            }
         }
     }
 
@@ -196,7 +225,7 @@ async function recordToApp(fields, recordId, iconFieldId, token) {
         version: fields['版本'] || '',
         updatedDate: formatMsAsDate(fields['更新日期']),
         popularity: toNumber(fields['热度']),
-        features: featuresRaw ? featuresRaw.split('\n').map(s => s.trim()).filter(Boolean) : [],
+        features,
         downloadSources,
         githubUrl: normalizeGithubUrl(fields['GitHub仓库']),
         githubStars: toNumber(fields['GitHub Star数']),
@@ -209,6 +238,10 @@ async function fetchAllRecords(token) {
     const iconFieldId = fieldIdMap['图标'];
     if (!iconFieldId) {
         console.warn('No "图标" attachment field found; icons will fall back to "图标SVG".');
+    }
+    const featureImagesFieldId = fieldIdMap['特性图片'];
+    if (!featureImagesFieldId) {
+        console.warn('No "特性图片" attachment field found; feature cards will fall back to the app icon/avatar.');
     }
 
     const apps = [];
@@ -228,7 +261,7 @@ async function fetchAllRecords(token) {
         }
         const items = (data.data && data.data.items) || [];
         for (const item of items) {
-            apps.push(await recordToApp(item.fields || {}, item.record_id || item.id, iconFieldId, token));
+            apps.push(await recordToApp(item.fields || {}, item.record_id || item.id, iconFieldId, featureImagesFieldId, token));
         }
         console.log(`  page ${page}: fetched ${items.length} records (total so far: ${apps.length})`);
         if (!data.data.has_more) break;
