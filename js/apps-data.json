@@ -28,7 +28,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/microsoft/vscode",
-      "githubStars": 190055
+      "githubStars": 190070
     },
     {
       "id": "powertoys",
@@ -61,7 +61,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/microsoft/PowerToys",
-      "githubStars": 138221
+      "githubStars": 138228
     },
     {
       "id": "rustdesk",
@@ -94,7 +94,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/rustdesk/rustdesk",
-      "githubStars": 122151
+      "githubStars": 122184
     },
     {
       "id": "windows-terminal",
@@ -127,7 +127,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/microsoft/terminal",
-      "githubStars": 104745
+      "githubStars": 104746
     },
     {
       "id": "localsend",
@@ -160,7 +160,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/localsend/localsend",
-      "githubStars": 89736
+      "githubStars": 89755
     },
     {
       "id": "ruff",
@@ -190,7 +190,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/astral-sh/ruff",
-      "githubStars": 49396
+      "githubStars": 49401
     },
     {
       "id": "traffic-monitor",
@@ -223,7 +223,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/zhongyang219/TrafficMonitor",
-      "githubStars": 45934
+      "githubStars": 45943
     },
     {
       "id": "xray-core",
@@ -253,7 +253,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/XTLS/Xray-core",
-      "githubStars": 41302
+      "githubStars": 41309
     },
     {
       "id": "sharex",
@@ -286,7 +286,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/ShareX/ShareX",
-      "githubStars": 39375
+      "githubStars": 39381
     },
     {
       "id": "v2ray-core",
@@ -316,7 +316,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/v2fly/v2ray-core",
-      "githubStars": 34525
+      "githubStars": 34526
     },
     {
       "id": "windterm",
@@ -376,7 +376,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/koodo-reader/koodo-reader",
-      "githubStars": 28012
+      "githubStars": 28013
     },
     {
       "id": "handbrake",
@@ -409,7 +409,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/HandBrake/HandBrake",
-      "githubStars": 24220
+      "githubStars": 24222
     },
     {
       "id": "brave-browser",
@@ -439,7 +439,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/brave/brave-browser",
-      "githubStars": 23469
+      "githubStars": 23475
     },
     {
       "id": "maa",
@@ -472,7 +472,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
-      "githubStars": 22879
+      "githubStars": 22890
     },
     {
       "id": "nekoboxforandroid",
@@ -502,7 +502,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
-      "githubStars": 22517
+      "githubStars": 22521
     },
     {
       "id": "bulk-crap-uninstaller",
@@ -532,7 +532,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
-      "githubStars": 21030
+      "githubStars": 21039
     },
     {
       "id": "animeko",
@@ -562,7 +562,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/open-ani/animeko",
-      "githubStars": 19857
+      "githubStars": 19862
     },
     {
       "id": "pot-desktop",
@@ -592,7 +592,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/pot-app/pot-desktop",
-      "githubStars": 19386
+      "githubStars": 19388
     },
     {
       "id": "yaak",
@@ -622,7 +622,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/mountain-loop/yaak",
-      "githubStars": 19134
+      "githubStars": 19133
     },
     {
       "id": "videocaptioner",
@@ -652,7 +652,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/WEIFENG2333/VideoCaptioner",
-      "githubStars": 15809
+      "githubStars": 15813
     },
     {
       "id": "flow-launcher",
@@ -685,7 +685,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Flow-Launcher/Flow.Launcher",
-      "githubStars": 15459
+      "githubStars": 15461
     },
     {
       "id": "gluetun",
@@ -715,7 +715,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/passteque/gluetun",
-      "githubStars": 15345
+      "githubStars": 15351
     },
     {
       "id": "electerm",
@@ -745,7 +745,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/electerm/electerm",
-      "githubStars": 14959
+      "githubStars": 14963
     },
     {
       "id": "browseros",
@@ -775,7 +775,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/browseros-ai/BrowserOS",
-      "githubStars": 13402
+      "githubStars": 13408
     },
     {
       "id": "autohotkey",
@@ -805,7 +805,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/AutoHotkey/AutoHotkey",
-      "githubStars": 13033
+      "githubStars": 13037
     },
     {
       "id": "rubocop",
@@ -865,7 +865,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/YaoFANGUK/video-subtitle-remover",
-      "githubStars": 12615
+      "githubStars": 12620
     },
     {
       "id": "devicon",
@@ -895,7 +895,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/devicons/devicon",
-      "githubStars": 11796
+      "githubStars": 11798
     },
     {
       "id": "Mineradio",
@@ -953,7 +953,7 @@
         }
       ],
       "githubUrl": "https://github.com/XxHuberrr/Mineradio",
-      "githubStars": 10365
+      "githubStars": 10371
     },
     {
       "id": "cefsharp",
@@ -1013,7 +1013,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/0x7c13/Notepads",
-      "githubStars": 10230
+      "githubStars": 10231
     },
     {
       "id": "sqlfluff",
@@ -1103,7 +1103,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/tonhowtf/omniget",
-      "githubStars": 9238
+      "githubStars": 9250
     },
     {
       "id": "eva-icons",
@@ -1193,7 +1193,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/superradcompany/microsandbox",
-      "githubStars": 8016
+      "githubStars": 8024
     },
     {
       "id": "podman-desktop",
@@ -1223,7 +1223,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/podman-desktop/podman-desktop",
-      "githubStars": 7974
+      "githubStars": 7976
     },
     {
       "id": "saltplayersource",
@@ -1253,7 +1253,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Moriafly/SaltPlayerSource",
-      "githubStars": 7275
+      "githubStars": 7278
     },
     {
       "id": "esearch",
@@ -1283,7 +1283,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/xushengfeng/eSearch",
-      "githubStars": 7054
+      "githubStars": 7056
     },
     {
       "id": "shell",
@@ -1343,7 +1343,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/aleksey-hoffman/sigma-file-manager",
-      "githubStars": 6512
+      "githubStars": 6513
     },
     {
       "id": "namida",
@@ -1403,7 +1403,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/mviereck/x11docker",
-      "githubStars": 6305
+      "githubStars": 6306
     },
     {
       "id": "pixelplayer",
@@ -1433,7 +1433,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/PixelPlayerHQ/PixelPlayer",
-      "githubStars": 6271
+      "githubStars": 6278
     },
     {
       "id": "awesome-vpn",
@@ -1463,7 +1463,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/awesome-vpn/awesome-vpn",
-      "githubStars": 6227
+      "githubStars": 6232
     },
     {
       "id": "funclip",
@@ -1553,7 +1553,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Slackadays/Clipboard",
-      "githubStars": 5892
+      "githubStars": 5891
     },
     {
       "id": "proxysu",
@@ -1613,7 +1613,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/miru-project/miru-app",
-      "githubStars": 5618
+      "githubStars": 5619
     },
     {
       "id": "archivetune",
@@ -1643,7 +1643,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/rukamori/ArchiveTune",
-      "githubStars": 5463
+      "githubStars": 5485
     },
     {
       "id": "outertune",
@@ -1673,7 +1673,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/OuterTune/OuterTune",
-      "githubStars": 5378
+      "githubStars": 5376
     },
     {
       "id": "mpv-net",
@@ -1763,7 +1763,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
-      "githubStars": 5278
+      "githubStars": 5281
     },
     {
       "id": "android-iconics",
@@ -1853,7 +1853,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/OxygenCobalt/Auxio",
-      "githubStars": 4217
+      "githubStars": 4218
     },
     {
       "id": "cloak",
@@ -1913,7 +1913,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/httpie/desktop",
-      "githubStars": 4033
+      "githubStars": 4034
     },
     {
       "id": "icono",
@@ -2123,7 +2123,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/carthage-software/mago",
-      "githubStars": 3415
+      "githubStars": 3416
     },
     {
       "id": "ttime",
@@ -2153,7 +2153,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/InkTimeRecord/TTime",
-      "githubStars": 3349
+      "githubStars": 3351
     },
     {
       "id": "explorerplusplus",
@@ -2213,7 +2213,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/AChep/keyguard-app",
-      "githubStars": 3211
+      "githubStars": 3213
     },
     {
       "id": "china-dictatorship",
@@ -2243,7 +2243,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/cirosantilli/china-dictatorship",
-      "githubStars": 3175
+      "githubStars": 3177
     },
     {
       "id": "pint",
@@ -2273,7 +2273,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/laravel/pint",
-      "githubStars": 3158
+      "githubStars": 3157
     },
     {
       "id": "qlty",
@@ -2303,7 +2303,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/qltysh/qlty",
-      "githubStars": 3130
+      "githubStars": 3131
     },
     {
       "id": "neriplayer",
@@ -2333,7 +2333,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/cwuom/NeriPlayer",
-      "githubStars": 3080
+      "githubStars": 3102
     },
     {
       "id": "ponymusic",
@@ -2423,7 +2423,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Taiko2k/Tauon",
-      "githubStars": 2830
+      "githubStars": 2831
     },
     {
       "id": "phonograph",
@@ -2513,7 +2513,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/jimuzhe/tiez-clipboard",
-      "githubStars": 2585
+      "githubStars": 2586
     },
     {
       "id": "vue-awesome",
@@ -2603,7 +2603,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/mundimark/awesome-markdown-editors",
-      "githubStars": 2251
+      "githubStars": 2252
     },
     {
       "id": "gramophone",
@@ -2633,7 +2633,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/FoedusProgramme/Gramophone",
-      "githubStars": 2251
+      "githubStars": 2252
     },
     {
       "id": "anaconda",
@@ -2693,7 +2693,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/badmojr/1Hosts",
-      "githubStars": 2213
+      "githubStars": 2214
     },
     {
       "id": "weektodo",
@@ -2756,6 +2756,36 @@
       "githubStars": 2141
     },
     {
+      "id": "podroid",
+      "name": "Podroid",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LX",
+      "icon": "",
+      "size": "297MB",
+      "version": "1.2.8",
+      "updatedDate": "2026-08-21",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "A rootless Android app that boots Al"
+        },
+        {
+          "title": "pine Linux: run containers (Podman/Docke"
+        },
+        {
+          "title": "核心基于 Kotlin 开发，跨平台易扩展"
+        },
+        {
+          "title": "关键词标签：#android-app #android-virtualization-framework #linux #shell"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/ExTV/Podroid",
+      "githubStars": 2099
+    },
+    {
       "id": "styled-icons",
       "name": "Styled Icons",
       "platform": "windows",
@@ -2786,36 +2816,6 @@
       "githubStars": 2099
     },
     {
-      "id": "podroid",
-      "name": "Podroid",
-      "platform": "android",
-      "category": "development",
-      "categoryName": "开发工具",
-      "description": "A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LX",
-      "icon": "",
-      "size": "297MB",
-      "version": "1.2.8",
-      "updatedDate": "2026-08-21",
-      "popularity": 0,
-      "features": [
-        {
-          "title": "A rootless Android app that boots Al"
-        },
-        {
-          "title": "pine Linux: run containers (Podman/Docke"
-        },
-        {
-          "title": "核心基于 Kotlin 开发，跨平台易扩展"
-        },
-        {
-          "title": "关键词标签：#android-app #android-virtualization-framework #linux #shell"
-        }
-      ],
-      "downloadSources": [],
-      "githubUrl": "https://github.com/ExTV/Podroid",
-      "githubStars": 2098
-    },
-    {
       "id": "coreui-icons",
       "name": "Coreui Icons",
       "platform": "windows",
@@ -2843,7 +2843,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/coreui/coreui-icons",
-      "githubStars": 2095
+      "githubStars": 2094
     },
     {
       "id": "selkies",
@@ -2873,7 +2873,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/selkies-project/selkies",
-      "githubStars": 2075
+      "githubStars": 2077
     },
     {
       "id": "dopamine-windows",
@@ -2966,36 +2966,6 @@
       "githubStars": 2001
     },
     {
-      "id": "github",
-      "name": ".Github",
-      "platform": "android",
-      "category": "development",
-      "categoryName": "开发工具",
-      "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub ",
-      "icon": "",
-      "size": "N/A",
-      "version": "",
-      "updatedDate": "2025-10-03",
-      "popularity": 0,
-      "features": [
-        {
-          "title": "这里是GitHub的草场，也是戈戈圈爱好者的交流地"
-        },
-        {
-          "title": "主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。T"
-        },
-        {
-          "title": "关键词标签：#a-soul #acfun #bilibili #china"
-        },
-        {
-          "title": "移动端 APK 体积轻量、内存占用友好"
-        }
-      ],
-      "downloadSources": [],
-      "githubUrl": "https://github.com/gege-circle/.github",
-      "githubStars": 1989
-    },
-    {
       "id": "argox",
       "name": "ArgoX",
       "platform": "windows",
@@ -3023,6 +2993,36 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/fscarmen/ArgoX",
+      "githubStars": 1990
+    },
+    {
+      "id": "github",
+      "name": ".Github",
+      "platform": "android",
+      "category": "development",
+      "categoryName": "开发工具",
+      "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub ",
+      "icon": "",
+      "size": "N/A",
+      "version": "",
+      "updatedDate": "2025-10-03",
+      "popularity": 0,
+      "features": [
+        {
+          "title": "这里是GitHub的草场，也是戈戈圈爱好者的交流地"
+        },
+        {
+          "title": "主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。T"
+        },
+        {
+          "title": "关键词标签：#a-soul #acfun #bilibili #china"
+        },
+        {
+          "title": "移动端 APK 体积轻量、内存占用友好"
+        }
+      ],
+      "downloadSources": [],
+      "githubUrl": "https://github.com/gege-circle/.github",
       "githubStars": 1989
     },
     {
@@ -3173,7 +3173,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/harry0703/MangoDisk",
-      "githubStars": 1739
+      "githubStars": 1758
     },
     {
       "id": "markdownmonster",
@@ -3233,7 +3233,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/Augani/dory",
-      "githubStars": 1543
+      "githubStars": 1545
     },
     {
       "id": "unicons",
@@ -3293,7 +3293,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/07akioni/xicons",
-      "githubStars": 1491
+      "githubStars": 1492
     },
     {
       "id": "orchard",
@@ -3323,7 +3323,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/andrew-waters/orchard",
-      "githubStars": 1450
+      "githubStars": 1453
     },
     {
       "id": "mpv-easy-player",
@@ -3383,7 +3383,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/ReSo7200/InstaEclipse",
-      "githubStars": 1413
+      "githubStars": 1414
     },
     {
       "id": "waveboxapp",
@@ -3593,7 +3593,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/John19187/The-40-Best-VPNs",
-      "githubStars": 1279
+      "githubStars": 1282
     },
     {
       "id": "v2rayxs",
@@ -3893,7 +3893,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/RoderickQiu/wnr",
-      "githubStars": 1094
+      "githubStars": 1095
     },
     {
       "id": "map-icons",
@@ -4000,7 +4000,7 @@
       ],
       "downloadSources": [],
       "githubUrl": "https://github.com/J-x-Z/cocoa-way",
-      "githubStars": 1017
+      "githubStars": 1019
     },
     {
       "id": "georgia-reborn",
@@ -4060,7 +4060,7 @@
       "githubStars": 851
     }
   ],
-  "syncedAt": "2026-08-30T15:47:38.982Z",
+  "syncedAt": "2026-08-31T02:38:21.465Z",
   "source": "feishu-base",
   "baseToken": "GJvibLPwIakU71s2cyIcjX3Jnxf",
   "tableId": "tbldnqzm1EfXA4zI"
